@@ -24,12 +24,17 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.10.8",
+    "@tanstack/solid-query": "^5.82.0",
+    "@tauri-apps/api": "^2.6.0",
     "solid-js": "^1.8.15"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@lingui-solid/babel-plugin-extract-messages": "^5.1.3",
+    "@lingui-solid/babel-plugin-lingui-macro": "^5.1.3",
     "@lingui-solid/vite-plugin": "^5.1.3",
     "@pandabox/prettier-plugin": "^0.1.3",
+    "@solid-devtools/overlay": "^0.33.5",
     "@solid-devtools/transform": "^0.10.4",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "eslint": "^9.26.0",
@@ -37,11 +42,12 @@
     "eslint-plugin-solid": "^0.14.5",
     "prettier": "^3.5.3",
     "typescript-eslint": "^8.32.0",
-    "vite": "^7.0.4",
+    "vite": "^6.3.5",
     "vite-plugin-babel-macros": "^1.0.6",
     "vite-plugin-inspect": "^11.3.0",
     "vite-plugin-pwa": "^1.0.1",
-    "vite-plugin-solid": "^2.11.7"
+    "vite-plugin-solid": "^2.11.7",
+    "vite-plugin-solid-svg": "^0.8.1"
   },
   "keywords": [],
   "engines": {
