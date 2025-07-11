@@ -3,6 +3,10 @@
     "version": "1.0.8",
     "description": "uwucord desktop app",
     "private": true,
+    "engines": {
+        "node": ">=18.0.0",
+        "pnpm": ">=8.6.0"
+    },
     "author": {
         "name": "Paul Makles",
         "url": "https://insrt.uk",
