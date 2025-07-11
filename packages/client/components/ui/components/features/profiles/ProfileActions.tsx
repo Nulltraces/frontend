@@ -1,11 +1,11 @@
 import { Show } from "solid-js";
 
 import { useNavigate } from "@solidjs/router";
-import { ServerMember, User } from "revolt.js";
+import { ServerMember, User } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { UserContextMenu } from "@revolt/app";
-import { useModals } from "@revolt/modal";
+import { UserContextMenu } from "@uwucord/app";
+import { useModals } from "@uwucord/modal";
 
 import MdCancel from "@material-design-icons/svg/filled/cancel.svg?component-solid";
 import MdEdit from "@material-design-icons/svg/filled/edit.svg?component-solid";

@@ -15,11 +15,11 @@ import {
   ServerMember,
   Session,
   User,
-} from "revolt.js";
-import { ProtocolV1 } from "revolt.js/lib/events/v1";
+} from "uwucord.js";
+import { ProtocolV1 } from "uwucord.js/lib/events/v1";
 
-import type { SettingsConfigurations } from "@revolt/app";
-import type { Modal } from "@revolt/ui";
+import type { SettingsConfigurations } from "@uwucord/app";
+import type { Modal } from "@uwucord/ui";
 
 import { ChangelogPost } from "./modals/Changelog";
 

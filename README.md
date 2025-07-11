@@ -1,22 +1,22 @@
 <div align="center">
 <h1>
-  Revolt Frontend
+  uwucord Frontend
   
-  [![Stars](https://img.shields.io/github/stars/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/stargazers)
-  [![Forks](https://img.shields.io/github/forks/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/network/members)
-  [![Pull Requests](https://img.shields.io/github/issues-pr/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/pulls)
-  [![Issues](https://img.shields.io/github/issues/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/issues)
-  [![Contributors](https://img.shields.io/github/contributors/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/graphs/contributors)
-  [![License](https://img.shields.io/github/license/revoltchat/frontend?style=flat-square&logoColor=white)](https://github.com/revoltchat/frontend/blob/main/LICENSE)
+  [![Stars](https://img.shields.io/github/stars/uwucordchat/frontend?style=flat-square&logoColor=white)](https://github.com/uwucordchat/frontend/stargazers)
+  [![Forks](https://img.shields.io/github/forks/uwucordchat/frontend?style=flat-square&logoColor=white)](https://github.com/uwucordchat/frontend/network/members)
+  [![Pull Requests](https://img.shields.io/github/issues-pr/uwucordchat/frontend?style=flat-square&logoColor=white)](https://github.com/uwucordchat/frontend/pulls)
+  [![Issues](https://img.shields.io/github/issues/uwucordchat/frontend?style=flat-square&logoColor=white)](https://github.com/uwucordchat/frontend/issues)
+  [![Contributors](https://img.shields.io/github/contributors/uwucordchat/frontend?style=flat-square&logoColor=white)](https://github.com/uwucordchat/frontend/graphs/contributors)
+  [![License](https://img.shields.io/github/license/uwucordchat/frontend?style=flat-square&logoColor=white)](https://github.com/uwucordchat/frontend/blob/main/LICENSE)
 </h1>
-The official web client powering https://revolt.chat/app, built with <a href="https://www.solidjs.com/">Solid.js</a> 💖. <br/>
-Track the project roadmap on <a href="https://op.revolt.wtf/projects/revolt-for-web/roadmap">OpenProject</a>.
+The official web client powering https://uwucord.chat/app, built with <a href="https://www.solidjs.com/">Solid.js</a> 💖. <br/>
+Track the project roadmap on <a href="https://op.uwucord.wtf/projects/uwucord-for-web/roadmap">OpenProject</a>.
 </div>
 <br/>
 
 ## Development Guide
 
-Before contributing, make yourself familiar with [our contribution guidelines](https://developers.revolt.chat/contrib.html), the [code style guidelines](./GUIDELINES.md), and the [technical documentation for this project](https://revoltchat.github.io/frontend/).
+Before contributing, make yourself familiar with [our contribution guidelines](https://developers.uwucord.chat/contrib.html), the [code style guidelines](./GUIDELINES.md), and the [technical documentation for this project](https://uwucordchat.github.io/frontend/).
 
 Before getting started, you'll want to install:
 
@@ -28,7 +28,7 @@ Then proceed to setup:
 
 ```bash
 # clone the repository
-git clone --recursive https://github.com/revoltchat/frontend client
+git clone --recursive https://github.com/uwucordchat/frontend client
 cd client
 
 # update submodules if you pull new changes
@@ -40,18 +40,18 @@ pnpm i --frozen-lockfile
 # build deps:
 pnpm build:deps
 
-# or build a specific dep (e.g. revolt.js updates):
-# pnpm --filter revolt.js run build
+# or build a specific dep (e.g. uwucord.js updates):
+# pnpm --filter uwucord.js run build
 
 # run dev server
 pnpm dev:web
 ```
 
-Finally, navigate to http://local.revolt.chat:5173.
+Finally, navigate to http://local.uwucord.chat:5173.
 
-### Pulling in Revolt's assets
+### Pulling in uwucord's assets
 
-If you want to pull in Revolt brand assets after pulling, run the following:
+If you want to pull in uwucord brand assets after pulling, run the following:
 
 ```bash
 # update the assets
@@ -65,17 +65,17 @@ You can switch back to the fallback assets by running deinit and continuing as n
 git submodule deinit packages/client/assets
 ```
 
-### Faster iteration with Revolt.js
+### Faster iteration with uwucord.js
 
-To make it easier to work with `revolt.js`, you may want to temporarily make this change:
+To make it easier to work with `uwucord.js`, you may want to temporarily make this change:
 
 ```diff
-# packages/revolt.js/package.json
+# packages/uwucord.js/package.json
 -  "module": "lib/esm/index.js",
 +  "module": "src/index.ts",
 ```
 
-Any edits to the revolt.js codebase will immediately be reflected while developing.
+Any edits to the uwucord.js codebase will immediately be reflected while developing.
 
 ## Deployment Guide
 
@@ -91,7 +91,7 @@ pnpm build:deps
 # build for web
 pnpm build:web
 
-# ... when building for Revolt production, use this instead of :web
+# ... when building for uwucord production, use this instead of :web
 pnpm build:prod
 ```
 

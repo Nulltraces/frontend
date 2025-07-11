@@ -1,7 +1,7 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { Markdown } from "@revolt/markdown";
-import { Modal2, Modal2Props } from "@revolt/ui";
+import { Markdown } from "@uwucord/markdown";
+import { Modal2, Modal2Props } from "@uwucord/ui";
 
 import { Modals } from "../types";
 

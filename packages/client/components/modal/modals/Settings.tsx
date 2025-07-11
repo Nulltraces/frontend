@@ -2,7 +2,7 @@ import { Show } from "solid-js";
 import { Portal } from "solid-js/web";
 import { Motion, Presence } from "solid-motionone";
 
-import { Settings, SettingsConfigurations } from "@revolt/app";
+import { Settings, SettingsConfigurations } from "@uwucord/app";
 
 import { PropGenerator } from "../types";
 

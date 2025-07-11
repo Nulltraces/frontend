@@ -1,8 +1,8 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { CONFIGURATION } from "@revolt/common";
-import { useNavigate } from "@revolt/routing";
-import { Button, Row, iconSize } from "@revolt/ui";
+import { CONFIGURATION } from "@uwucord/common";
+import { useNavigate } from "@uwucord/routing";
+import { Button, Row, iconSize } from "@uwucord/ui";
 
 import MdArrowBack from "@material-design-icons/svg/filled/arrow_back.svg?component-solid";
 
@@ -72,7 +72,7 @@ export default function FlowCreate() {
             cursor: "pointer",
           }}
           onClick={() => {
-            setFlowCheckEmail("insert@revolt.chat");
+            setFlowCheckEmail("insert@uwucord.chat");
             navigate("/login/check", { replace: true });
           }}
         >

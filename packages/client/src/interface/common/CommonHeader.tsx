@@ -4,8 +4,8 @@ import { JSX, Match, Switch } from "solid-js";
 import { useLingui } from "@lingui-solid/solid/macro";
 import { css } from "styled-system/css";
 
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
+import { useState } from "@uwucord/state";
+import { LAYOUT_SECTIONS } from "@uwucord/state/stores/Layout";
 
 /**
  * Wrapper for header icons which adds the chevron on the

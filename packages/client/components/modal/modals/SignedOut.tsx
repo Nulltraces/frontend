@@ -8,7 +8,7 @@ import { PropGenerator } from "../types";
  */
 const SignedOut: PropGenerator<"signed_out"> = () => {
   return {
-    title: <Trans>You've been signed out of Revolt!</Trans>,
+    title: <Trans>You've been signed out of uwucord!</Trans>,
     actions: [
       {
         children: <Trans>OK</Trans>,

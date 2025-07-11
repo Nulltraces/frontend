@@ -1,13 +1,13 @@
 import { Match, Switch } from "solid-js";
 
 import { useMutation } from "@tanstack/solid-query";
-import { Message } from "revolt.js";
+import { Message } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
-import { Text, TextField } from "@revolt/ui";
+import { useClient } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
+import { useState } from "@uwucord/state";
+import { Text, TextField } from "@uwucord/ui";
 
 export function EditMessage(props: { message: Message }) {
   const state = useState();

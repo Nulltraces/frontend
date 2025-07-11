@@ -1,14 +1,14 @@
 import { Component, Match, Show, Switch, createMemo } from "solid-js";
 import { JSX } from "solid-js";
 
-import { Channel, Server as ServerI } from "revolt.js";
+import { Channel, Server as ServerI } from "uwucord.js";
 
-import { ChannelContextMenu, ServerSidebarContextMenu } from "@revolt/app";
-import { useClient, useUser } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useParams, useSmartParams } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
+import { ChannelContextMenu, ServerSidebarContextMenu } from "@uwucord/app";
+import { useClient, useUser } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
+import { useParams, useSmartParams } from "@uwucord/routing";
+import { useState } from "@uwucord/state";
+import { LAYOUT_SECTIONS } from "@uwucord/state/stores/Layout";
 
 import { HomeSidebar, ServerList, ServerSidebar } from "./navigation";
 

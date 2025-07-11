@@ -3,13 +3,13 @@ import { For, Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { t } from "@lingui/core/macro";
-import { Server } from "revolt.js";
+import { Server } from "uwucord.js";
 import { css } from "styled-system/css";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useError } from "@revolt/i18n";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@uwucord/client";
+import { CONFIGURATION } from "@uwucord/common";
+import { useError } from "@uwucord/i18n";
+import { useModals } from "@uwucord/modal";
 import {
   Avatar,
   CategoryButton,
@@ -18,7 +18,7 @@ import {
   Form2,
   Row,
   Text,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 /**
  * Emoji list

@@ -1,4 +1,4 @@
-import { paramsFromPathname } from "@revolt/routing";
+import { paramsFromPathname } from "@uwucord/routing";
 
 import { State } from "..";
 

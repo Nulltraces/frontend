@@ -15,12 +15,12 @@ import {
 } from "solid-icons/bi";
 import { Match, Switch } from "solid-js";
 
-import { SystemMessage } from "revolt.js";
+import { SystemMessage } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { useTime } from "@revolt/i18n";
-import { Tooltip } from "@revolt/ui/components/floating";
-import { Time, formatTime } from "@revolt/ui/components/utils";
+import { useTime } from "@uwucord/i18n";
+import { Tooltip } from "@uwucord/ui/components/floating";
+import { Time, formatTime } from "@uwucord/ui/components/utils";
 
 /**
  * System Message Icon

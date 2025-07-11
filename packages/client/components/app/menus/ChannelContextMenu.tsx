@@ -1,9 +1,9 @@
 import { Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 
-import { useModals } from "@revolt/modal";
+import { useModals } from "@uwucord/modal";
 
 import MdBadge from "@material-design-icons/svg/outlined/badge.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";
@@ -76,11 +76,11 @@ export function ChannelContextMenu(props: { channel: Channel }) {
   }
 
   /**
-   * Open channel in Revolt Admin Panel
+   * Open channel in uwucord Admin Panel
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.revolt.chat/panel/inspect/channel/${props.channel.id}`,
+      `https://admin.uwucord.chat/panel/inspect/channel/${props.channel.id}`,
       "_blank",
     );
   }

@@ -7,12 +7,12 @@ import {
 import { For, Match, Show, Switch } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { debounce } from "@revolt/common";
-import { Keybind, KeybindAction, createKeybind } from "@revolt/keybinds";
-import { useState } from "@revolt/state";
+import { useClient } from "@uwucord/client";
+import { debounce } from "@uwucord/common";
+import { Keybind, KeybindAction, createKeybind } from "@uwucord/keybinds";
+import { useState } from "@uwucord/state";
 import {
   Button,
   CompositionPicker,
@@ -21,7 +21,7 @@ import {
   FilePasteCollector,
   MessageBox,
   MessageReplyPreview,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 interface Props {
   /**

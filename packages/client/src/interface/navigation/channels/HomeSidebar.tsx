@@ -3,15 +3,15 @@ import { Match, Show, Switch, createMemo, splitProps } from "solid-js";
 
 import { Plural, Trans, useLingui } from "@lingui-solid/solid/macro";
 import { VirtualContainer } from "@minht11/solid-virtual-container";
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { ChannelContextMenu, UserContextMenu } from "@revolt/app";
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { useLocation, useNavigate } from "@revolt/routing";
-import { iconSize } from "@revolt/ui";
+import { ChannelContextMenu, UserContextMenu } from "@uwucord/app";
+import { useClient } from "@uwucord/client";
+import { TextWithEmoji } from "@uwucord/markdown";
+import { useModals } from "@uwucord/modal";
+import { useLocation, useNavigate } from "@uwucord/routing";
+import { iconSize } from "@uwucord/ui";
 import {
   Avatar,
   Deferred,
@@ -20,7 +20,7 @@ import {
   Tooltip,
   UserStatus,
   typography,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdPlus from "@material-design-icons/svg/outlined/add.svg?component-solid";
 import MdClose from "@material-design-icons/svg/outlined/close.svg?component-solid";

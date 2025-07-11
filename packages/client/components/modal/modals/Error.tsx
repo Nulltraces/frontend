@@ -1,6 +1,6 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useError } from "@revolt/i18n";
+import { useError } from "@uwucord/i18n";
 
 import { PropGenerator } from "../types";
 

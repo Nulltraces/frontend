@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/solid-query";
 import { styled } from "styled-system/jsx";
 
-import { Modal2, Modal2Props, Profile } from "@revolt/ui";
+import { Modal2, Modal2Props, Profile } from "@uwucord/ui";
 
 import { Modals } from "../types";
 

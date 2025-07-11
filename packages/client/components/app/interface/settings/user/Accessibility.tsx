@@ -6,7 +6,7 @@ import {
   Checkbox,
   Column,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdAnimation from "@material-design-icons/svg/outlined/animation.svg?component-solid";
 

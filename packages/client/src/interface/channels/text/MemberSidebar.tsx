@@ -2,13 +2,13 @@ import { Match, Show, Switch, createMemo, onMount } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
 import { VirtualContainer } from "@minht11/solid-virtual-container";
-import { Channel, ServerMember, User } from "revolt.js";
+import { Channel, ServerMember, User } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { floatingUserMenus } from "@revolt/app/menus/UserContextMenu";
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { userInformation } from "@revolt/markdown/users";
+import { floatingUserMenus } from "@uwucord/app/menus/UserContextMenu";
+import { useClient } from "@uwucord/client";
+import { TextWithEmoji } from "@uwucord/markdown";
+import { userInformation } from "@uwucord/markdown/users";
 import {
   Avatar,
   Deferred,
@@ -19,7 +19,7 @@ import {
   UserStatus,
   Username,
   typography,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 interface Props {
   /**

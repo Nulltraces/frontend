@@ -19,31 +19,81 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@test": ["test"],
-      "@revolt/app": ["components/app"],
-      "@revolt/app/*": ["components/app/*"],
-      "@revolt/auth": ["components/auth"],
-      "@revolt/auth/*": ["components/auth/*"],
-      "@revolt/client": ["components/client"],
-      "@revolt/client/*": ["components/client/*"],
-      "@revolt/common": ["components/common"],
-      "@revolt/common/*": ["components/common/*"],
-      "@revolt/i18n": ["components/i18n"],
-      "@revolt/i18n/*": ["components/i18n/*"],
-      "@revolt/keybinds": ["components/keybinds"],
-      "@revolt/keybinds/*": ["components/keybinds/*"],
-      "@revolt/markdown": ["components/markdown"],
-      "@revolt/markdown/*": ["components/markdown/*"],
-      "@revolt/modal": ["components/modal"],
-      "@revolt/modal/*": ["components/modal/*"],
-      "@revolt/routing": ["components/routing"],
-      "@revolt/routing/*": ["components/routing/*"],
-      "@revolt/rtc": ["components/rtc"],
-      "@revolt/rtc/*": ["components/rtc/*"],
-      "@revolt/state": ["components/state"],
-      "@revolt/state/*": ["components/state/*"],
-      "@revolt/ui": ["components/ui"],
-      "@revolt/ui/*": ["components/ui/*"]
+      "@test": [
+        "test"
+      ],
+      "@uwucord/app": [
+        "components/app"
+      ],
+      "@uwucord/app/*": [
+        "components/app/*"
+      ],
+      "@uwucord/auth": [
+        "components/auth"
+      ],
+      "@uwucord/auth/*": [
+        "components/auth/*"
+      ],
+      "@uwucord/client": [
+        "components/client"
+      ],
+      "@uwucord/client/*": [
+        "components/client/*"
+      ],
+      "@uwucord/common": [
+        "components/common"
+      ],
+      "@uwucord/common/*": [
+        "components/common/*"
+      ],
+      "@uwucord/i18n": [
+        "components/i18n"
+      ],
+      "@uwucord/i18n/*": [
+        "components/i18n/*"
+      ],
+      "@uwucord/keybinds": [
+        "components/keybinds"
+      ],
+      "@uwucord/keybinds/*": [
+        "components/keybinds/*"
+      ],
+      "@uwucord/markdown": [
+        "components/markdown"
+      ],
+      "@uwucord/markdown/*": [
+        "components/markdown/*"
+      ],
+      "@uwucord/modal": [
+        "components/modal"
+      ],
+      "@uwucord/modal/*": [
+        "components/modal/*"
+      ],
+      "@uwucord/routing": [
+        "components/routing"
+      ],
+      "@uwucord/routing/*": [
+        "components/routing/*"
+      ],
+      "@uwucord/rtc": [
+        "components/rtc"
+      ],
+      "@uwucord/rtc/*": [
+        "components/rtc/*"
+      ],
+      "@uwucord/state": [
+        "components/state"
+      ],
+      "@uwucord/state/*": [
+        "components/state/*"
+      ],
+      "@uwucord/ui": [
+        "components/ui"
+      ],
+      "@uwucord/ui/*": [
+        "components/ui/*"
+      ]
     }
   },
   "include": [
@@ -55,5 +105,7 @@
     "components/**/*.tsx",
     "types/*.d.ts"
   ],
-  "exclude": ["components/i18n/locales/*"]
+  "exclude": [
+    "components/i18n/locales/*"
+  ]
 }

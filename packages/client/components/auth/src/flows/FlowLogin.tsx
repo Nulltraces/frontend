@@ -3,20 +3,20 @@ import { Match, Switch } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { useClientLifecycle } from "@revolt/client";
-import { State, TransitionType } from "@revolt/client/Controller";
-import { useModals } from "@revolt/modal";
-import { Navigate } from "@revolt/routing";
-import { Button, Column, Preloader, Row, iconSize } from "@revolt/ui";
+import { useClientLifecycle } from "@uwucord/client";
+import { State, TransitionType } from "@uwucord/client/Controller";
+import { useModals } from "@uwucord/modal";
+import { Navigate } from "@uwucord/routing";
+import { Button, Column, Preloader, Row, iconSize } from "@uwucord/ui";
 
 import MdArrowBack from "@material-design-icons/svg/filled/arrow_back.svg?component-solid";
 
-import RevoltSvg from "../../../../public/assets/wordmark_wide_500px.svg?component-solid";
+import uwucordSvg from "../../../../public/assets/wordmark_wide_500px.svg?component-solid";
 
 import { FlowTitle } from "./Flow";
 import { Fields, Form } from "./Form";
 
-const Logo = styled(RevoltSvg, {
+const Logo = styled(uwucordSvg, {
   base: {
     height: "0.8em",
     display: "inline",
@@ -62,7 +62,7 @@ export default function FlowLogin() {
       <Switch
         fallback={
           <>
-            <FlowTitle subtitle={<Trans>Sign into Revolt</Trans>} emoji="wave">
+            <FlowTitle subtitle={<Trans>Sign into uwucord</Trans>} emoji="wave">
               <Trans>Welcome!</Trans>
             </FlowTitle>
             <Form onSubmit={performLogin}>

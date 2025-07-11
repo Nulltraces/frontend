@@ -4,10 +4,10 @@ import { Trans } from "@lingui-solid/solid/macro";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { IS_DEV, useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useModals } from "@revolt/modal";
-import { useNavigate } from "@revolt/routing";
+import { IS_DEV, useClient } from "@uwucord/client";
+import { CONFIGURATION } from "@uwucord/common";
+import { useModals } from "@uwucord/modal";
+import { useNavigate } from "@uwucord/routing";
 import {
   Button,
   CategoryButton,
@@ -16,7 +16,7 @@ import {
   iconSize,
   main,
   typography,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdAddCircle from "@material-design-icons/svg/filled/add_circle.svg?component-solid";
 import MdExplore from "@material-design-icons/svg/filled/explore.svg?component-solid";
@@ -26,11 +26,11 @@ import MdPayments from "@material-design-icons/svg/filled/payments.svg?component
 import MdRateReview from "@material-design-icons/svg/filled/rate_review.svg?component-solid";
 import MdSettings from "@material-design-icons/svg/filled/settings.svg?component-solid";
 
-import RevoltSvg from "../../public/assets/wordmark_wide_500px.svg?component-solid";
+import uwucordSvg from "../../public/assets/wordmark_wide_500px.svg?component-solid";
 
 import { HeaderIcon } from "./common/CommonHeader";
 
-const Logo = styled(RevoltSvg, {
+const Logo = styled(uwucordSvg, {
   base: {
     fill: "var(--md-sys-color-on-surface)",
   },
@@ -110,8 +110,8 @@ export function HomePage() {
   const navigate = useNavigate();
   const client = useClient();
 
-  // check if we're revolt.chat; if so, check if the user is in the Lounge
-  const showLoungeButton = CONFIGURATION.IS_REVOLT;
+  // check if we're uwucord.chat; if so, check if the user is in the Lounge
+  const showLoungeButton = CONFIGURATION.IS_uwucord;
   const isInLounge =
     client()!.servers.get("01F7ZSBSFHQ8TA81725KQCSDDP") !== undefined;
 
@@ -181,7 +181,7 @@ export function HomePage() {
             <CategoryButton
               onClick={() =>
                 window.open(
-                  "https://wiki.revolt.chat/notes/project/financial-support/",
+                  "https://wiki.uwucord.chat/notes/project/financial-support/",
                 )
               }
               description={
@@ -189,11 +189,11 @@ export function HomePage() {
               }
               icon={<MdPayments />}
             >
-              <Trans>Donate to Revolt</Trans>
+              <Trans>Donate to uwucord</Trans>
             </CategoryButton>
           </SeparatedColumn>
           <SeparatedColumn>
-            <Show when={CONFIGURATION.IS_REVOLT}>
+            <Show when={CONFIGURATION.IS_uwucord}>
               <CategoryButton
                 onClick={() => navigate("/discover")}
                 description={
@@ -203,7 +203,7 @@ export function HomePage() {
                 }
                 icon={<MdExplore />}
               >
-                <Trans>Discover Revolt</Trans>
+                <Trans>Discover uwucord</Trans>
               </CategoryButton>
             </Show>
             <CategoryButton
@@ -214,7 +214,7 @@ export function HomePage() {
               }
               icon={<MdRateReview {...iconSize(22)} />}
             >
-              <Trans>Give feedback on Revolt</Trans>
+              <Trans>Give feedback on uwucord</Trans>
             </CategoryButton>
             <CategoryButton
               onClick={() => openModal({ type: "settings", config: "user" })}

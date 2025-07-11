@@ -20,7 +20,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          author_name: Revolt CI
-          author_email: revolt-ci@users.noreply.github.com
+          author_name: uwucord CI
+          author_email: uwucord-ci@users.noreply.github.com
           message: "chore: update locale strings"
           

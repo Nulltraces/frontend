@@ -1,11 +1,11 @@
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { useState } from "@revolt/state";
-import { UnsentMessage } from "@revolt/state/stores/Draft";
+import { useClient } from "@uwucord/client";
+import { useState } from "@uwucord/state";
+import { UnsentMessage } from "@uwucord/state/stores/Draft";
 
 import MdClose from "@material-design-icons/svg/outlined/close.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";

@@ -1,11 +1,11 @@
 import { createEffect } from "solid-js";
 
-import { useState } from "@revolt/state";
+import { useState } from "@uwucord/state";
 
 import {
   createMaterialColourVariables,
   createMduiColourTriplets,
-  createRevoltWebVariables,
+  createuwucordWebVariables,
 } from ".";
 import { Masks } from "./Masks";
 import { legacyThemeUnsetShim } from "./legacyThemeGeneratorCode";
@@ -30,8 +30,8 @@ export function LoadTheme() {
         }),
         {},
       ),
-      // mount Revolt for Web variables
-      ...createRevoltWebVariables(activeTheme),
+      // mount uwucord for Web variables
+      ...createuwucordWebVariables(activeTheme),
       // mount --md-sys-color variables
       ...createMaterialColourVariables(activeTheme, "--md-sys-color-"),
       // mount --mdui-color triplet variables

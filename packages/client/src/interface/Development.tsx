@@ -6,8 +6,8 @@ import { For } from "solid-js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
 import {
   Button,
   CategoryButton,
@@ -21,7 +21,7 @@ import {
   TextField,
   iconSize,
   DataTable
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import Face from "@material-design-icons/svg/filled/face.svg?component-solid";
 
@@ -94,12 +94,12 @@ export function DevelopmentPage() {
             "Two-factor authentication is now available to all users, you can now head over to settings to enable recovery codes and an authenticator app.",
             {
               type: "image",
-              src: "https://autumn.revolt.chat/attachments/E21kwmuJGcASgkVLiSIW0wV3ggcaOWjW0TQF7cdFNY/image.png",
+              src: "https://autumn.uwucord.chat/attachments/E21kwmuJGcASgkVLiSIW0wV3ggcaOWjW0TQF7cdFNY/image.png",
             },
             "Once enabled, you will be prompted on login.",
             {
               type: "image",
-              src: "https://autumn.revolt.chat/attachments/LWRYoKR2tE1ggW_Lzm547P1pnrkNgmBaoCAfWvHE74/image.png",
+              src: "https://autumn.uwucord.chat/attachments/LWRYoKR2tE1ggW_Lzm547P1pnrkNgmBaoCAfWvHE74/image.png",
             },
             "Other authentication methods coming later, stay tuned!",
           ],

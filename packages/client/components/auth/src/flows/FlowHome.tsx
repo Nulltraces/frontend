@@ -3,12 +3,12 @@ import { Match, Show, Switch } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { cva } from "styled-system/css";
 
-import { useClientLifecycle } from "@revolt/client";
-import { TransitionType } from "@revolt/client/Controller";
-import { Navigate } from "@revolt/routing";
-import { Button, Column } from "@revolt/ui";
+import { useClientLifecycle } from "@uwucord/client";
+import { TransitionType } from "@uwucord/client/Controller";
+import { Navigate } from "@uwucord/routing";
+import { Button, Column } from "@uwucord/ui";
 
-import RevoltSvg from "../../../../public/assets/wordmark_wide_500px.svg?component-solid";
+import uwucordSvg from "../../../../public/assets/wordmark_wide_500px.svg?component-solid";
 
 const logo = cva({
   base: {
@@ -33,7 +33,7 @@ export default function FlowHome() {
           </Show>
 
           <Column gap="xl">
-            <RevoltSvg class={logo()} />
+            <uwucordSvg class={logo()} />
 
             <Column>
               <b
@@ -58,7 +58,7 @@ export default function FlowHome() {
               </b>
               <span style={{ "text-align": "center", opacity: "0.5" }}>
                 <Trans>
-                  Revolt is one of the best ways to stay connected with your
+                  uwucord is one of the best ways to stay connected with your
                   friends and community, anywhere, anytime.
                 </Trans>
               </span>

@@ -2,9 +2,9 @@ import { JSX, Switch, splitProps } from "solid-js";
 
 import { cva } from "styled-system/css";
 
-import { useClient } from "@revolt/client";
-import { paramsFromPathname } from "@revolt/routing";
-import { Avatar, iconSize } from "@revolt/ui";
+import { useClient } from "@uwucord/client";
+import { paramsFromPathname } from "@uwucord/routing";
+import { Avatar, iconSize } from "@uwucord/ui";
 
 import MdChat from "@material-design-icons/svg/outlined/chat.svg?component-solid";
 import MdChevronRight from "@material-design-icons/svg/outlined/chevron_right.svg?component-solid";
@@ -51,8 +51,8 @@ export function RenderAnchor(
     if (
       [
         location.origin,
-        "https://app.revolt.chat",
-        "https://revolt.chat",
+        "https://app.uwucord.chat",
+        "https://uwucord.chat",
       ].includes(url.origin)
     ) {
       const newUrl = new URL(url.pathname, location.origin);

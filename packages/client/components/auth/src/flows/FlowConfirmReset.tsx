@@ -1,8 +1,8 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useApi } from "@revolt/client";
-import { useNavigate, useParams } from "@revolt/routing";
-import { Button } from "@revolt/ui";
+import { useApi } from "@uwucord/client";
+import { useNavigate, useParams } from "@uwucord/routing";
+import { Button } from "@uwucord/ui";
 
 import { FlowTitle } from "./Flow";
 import { Fields, Form } from "./Form";

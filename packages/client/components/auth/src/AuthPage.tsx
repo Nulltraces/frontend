@@ -4,7 +4,7 @@ import { JSX } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { Button, iconSize } from "@revolt/ui";
+import { Button, iconSize } from "@uwucord/ui";
 
 import MdDarkMode from "@material-design-icons/svg/filled/dark_mode.svg?component-solid";
 
@@ -115,7 +115,7 @@ const Bullet = styled("div", {
 });
 
 /**
- * Revolt Wordmark
+ * uwucord Wordmark
  */
 const Logo = styled("img", {
   base: {
@@ -151,14 +151,14 @@ export function AuthPage(props: { children: JSX.Element }) {
       <Nav>
         <NavItems variant="stack">
           <NavItems>
-            <LinkWithIcon href="https://github.com/revoltchat" target="_blank">
+            <LinkWithIcon href="https://github.com/uwucordchat" target="_blank">
               <BiLogosGithub size={24} />
             </LinkWithIcon>
-            <LinkWithIcon href="https://twitter.com/revoltchat" target="_blank">
+            <LinkWithIcon href="https://twitter.com/uwucordchat" target="_blank">
               <BiLogosTwitter size={24} />
             </LinkWithIcon>
             <LinkWithIcon
-              href="https://mastodon.social/web/@revoltchat"
+              href="https://mastodon.social/web/@uwucordchat"
               target="_blank"
             >
               <BiLogosMastodon size={24} />
@@ -166,13 +166,13 @@ export function AuthPage(props: { children: JSX.Element }) {
           </NavItems>
           <Bullet />
           <NavItems>
-            <a href="https://revolt.chat/about" target="_blank">
+            <a href="https://uwucord.chat/about" target="_blank">
               <Trans>About</Trans>
             </a>
-            <a href="https://revolt.chat/terms" target="_blank">
+            <a href="https://uwucord.chat/terms" target="_blank">
               <Trans>Terms of Service</Trans>
             </a>
-            <a href="https://revolt.chat/privacy" target="_blank">
+            <a href="https://uwucord.chat/privacy" target="_blank">
               <Trans>Privacy Policy</Trans>
             </a>
           </NavItems>

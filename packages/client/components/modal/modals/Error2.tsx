@@ -1,7 +1,7 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useError } from "@revolt/i18n";
-import { Modal2, Modal2Props, iconSize } from "@revolt/ui";
+import { useError } from "@uwucord/i18n";
+import { Modal2, Modal2Props, iconSize } from "@uwucord/ui";
 
 import MdError from "@material-design-icons/svg/outlined/error.svg?component-solid";
 

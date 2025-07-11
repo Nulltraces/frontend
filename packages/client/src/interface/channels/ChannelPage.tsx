@@ -1,13 +1,13 @@
 import { Component, Match, Switch, createMemo } from "solid-js";
 
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { Navigate, useParams } from "@revolt/routing";
-import { Demo } from "@revolt/rtc/Demo";
-import { Header } from "@revolt/ui";
+import { useClient } from "@uwucord/client";
+import { TextWithEmoji } from "@uwucord/markdown";
+import { Navigate, useParams } from "@uwucord/routing";
+import { Demo } from "@uwucord/rtc/Demo";
+import { Header } from "@uwucord/ui";
 
 import { AgeGate } from "./AgeGate";
 import { ChannelHeader } from "./ChannelHeader";

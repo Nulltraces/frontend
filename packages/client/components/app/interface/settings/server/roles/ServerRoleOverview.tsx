@@ -1,8 +1,8 @@
 import { Trans } from "@lingui-solid/solid/macro";
-import { Server } from "revolt.js";
+import { Server } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { CategoryButton, Column, Draggable, Text } from "@revolt/ui";
+import { CategoryButton, Column, Draggable, Text } from "@uwucord/ui";
 
 import MdDragIndicator from "@material-design-icons/svg/outlined/drag_indicator.svg?component-solid";
 

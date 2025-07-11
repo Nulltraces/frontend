@@ -2,7 +2,7 @@ import { Show } from "solid-js";
 
 import { styled } from "styled-system/jsx";
 
-import { Markdown } from "@revolt/markdown";
+import { Markdown } from "@uwucord/markdown";
 
 import { Ripple, Text, typography } from "../../design";
 

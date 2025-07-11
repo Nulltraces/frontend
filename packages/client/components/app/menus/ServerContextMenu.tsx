@@ -1,10 +1,10 @@
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Server } from "revolt.js";
+import { Server } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
 
 import MdBadge from "@material-design-icons/svg/outlined/badge.svg?component-solid";
 import MdFace from "@material-design-icons/svg/outlined/face.svg?component-solid";
@@ -97,11 +97,11 @@ export function ServerContextMenu(props: { server: Server }) {
   }
 
   /**
-   * Open server in Revolt Admin Panel
+   * Open server in uwucord Admin Panel
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.revolt.chat/panel/inspect/server/${props.server.id}`,
+      `https://admin.uwucord.chat/panel/inspect/server/${props.server.id}`,
       "_blank",
     );
   }

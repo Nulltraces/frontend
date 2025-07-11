@@ -1,4 +1,4 @@
-import { Channel, Server } from "revolt.js";
+import { Channel, Server } from "uwucord.js";
 
 import { State } from "..";
 

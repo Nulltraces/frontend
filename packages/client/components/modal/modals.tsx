@@ -1,7 +1,7 @@
 import { JSX, mergeProps, splitProps } from "solid-js";
 
-import { CONFIGURATION } from "@revolt/common";
-import { Modal } from "@revolt/ui";
+import { CONFIGURATION } from "@uwucord/common";
+import { Modal } from "@uwucord/ui";
 
 import { type ActiveModal } from ".";
 import { AddFriend } from "./modals/AddFriend";

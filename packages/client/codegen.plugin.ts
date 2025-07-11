@@ -53,7 +53,7 @@ export default function codegenPlugin() {
             src =
               `import { ${DIRECTIVES.join(
                 ", ",
-              )} } from "@revolt/ui/directives";\n` + src;
+              )} } from "@uwucord/ui/directives";\n` + src;
         }
 
         return src;

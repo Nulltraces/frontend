@@ -1,11 +1,11 @@
 import { Match, Switch } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { API, Server, User } from "revolt.js";
+import { API, Server, User } from "uwucord.js";
 import { cva } from "styled-system/css";
 
-import { Message } from "@revolt/app";
-import { Avatar, Column, Initials } from "@revolt/ui";
+import { Message } from "@uwucord/app";
+import { Avatar, Column, Initials } from "@uwucord/ui";
 
 import { createFormModal } from "../form";
 import { PropGenerator } from "../types";

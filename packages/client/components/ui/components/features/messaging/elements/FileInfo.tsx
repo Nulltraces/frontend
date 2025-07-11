@@ -9,12 +9,12 @@ import {
 } from "solid-icons/bi";
 import { Match, Show, Switch } from "solid-js";
 
-import { File, MessageEmbed } from "revolt.js";
+import { File, MessageEmbed } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { Text } from "@revolt/ui/components/design";
-import { Column, Row } from "@revolt/ui/components/layout";
-import { humanFileSize } from "@revolt/ui/components/utils";
+import { Text } from "@uwucord/ui/components/design";
+import { Column, Row } from "@uwucord/ui/components/layout";
+import { humanFileSize } from "@uwucord/ui/components/utils";
 
 /**
  * Base container

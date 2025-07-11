@@ -3,7 +3,7 @@
 To handle an API error, use the hook:
 
 ```typescript
-import { useError } from "@revolt/i18n";
+import { useError } from "@uwucord/i18n";
 
 const err = useError();
 

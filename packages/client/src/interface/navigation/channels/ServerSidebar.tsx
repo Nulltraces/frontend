@@ -8,14 +8,14 @@ import {
 import { For, JSX, Match, Show, Switch, createMemo } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import type { API, Channel, Server, ServerFlags } from "revolt.js";
+import type { API, Channel, Server, ServerFlags } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { KeybindAction, createKeybind } from "@revolt/keybinds";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { useNavigate } from "@revolt/routing";
-import { useState } from "@revolt/state";
+import { KeybindAction, createKeybind } from "@uwucord/keybinds";
+import { TextWithEmoji } from "@uwucord/markdown";
+import { useModals } from "@uwucord/modal";
+import { useNavigate } from "@uwucord/routing";
+import { useState } from "@uwucord/state";
 import {
   Column,
   Header,
@@ -25,7 +25,7 @@ import {
   Tooltip,
   iconSize,
   typography,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdChevronRight from "@material-design-icons/svg/filled/chevron_right.svg?component-solid";
 import MdPersonAdd from "@material-design-icons/svg/filled/person_add.svg?component-solid";

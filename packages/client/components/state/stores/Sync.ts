@@ -1,7 +1,7 @@
 import { batch } from "solid-js";
 
 import { ReactiveSet } from "@solid-primitives/set";
-import { Client } from "revolt.js";
+import { Client } from "uwucord.js";
 
 import { State } from "..";
 

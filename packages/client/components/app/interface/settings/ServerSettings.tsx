@@ -10,12 +10,12 @@ import {
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { t } from "@lingui/core/macro";
-import { Server } from "revolt.js";
+import { Server } from "uwucord.js";
 
-import { useUser } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { ColouredText } from "@revolt/ui";
+import { useUser } from "@uwucord/client";
+import { TextWithEmoji } from "@uwucord/markdown";
+import { useModals } from "@uwucord/modal";
+import { ColouredText } from "@uwucord/ui";
 
 import { SettingsConfiguration } from ".";
 import { ChannelPermissionsEditor } from "./channel/permissions/ChannelPermissionsEditor";

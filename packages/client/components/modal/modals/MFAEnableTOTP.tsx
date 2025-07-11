@@ -4,7 +4,7 @@ import { QRCodeSVG } from "solid-qr-code";
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { Column, TextField } from "@revolt/ui";
+import { Column, TextField } from "@uwucord/ui";
 
 import { PropGenerator } from "../types";
 
@@ -42,7 +42,7 @@ const MFAEnableTOTP: PropGenerator<"mfa_enable_totp"> = (props) => {
    * Generate OTP URI
    */
   const uri = () =>
-    `otpauth://totp/Revolt:${props.identifier}?secret=${props.secret}&issuer=Revolt`;
+    `otpauth://totp/uwucord:${props.identifier}?secret=${props.secret}&issuer=uwucord`;
 
   return {
     title: <Trans>Enable authenticator app</Trans>,

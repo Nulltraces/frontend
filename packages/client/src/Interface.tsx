@@ -1,17 +1,17 @@
 import { JSX, Match, Switch, createEffect } from "solid-js";
 
-import { Server } from "revolt.js";
+import { Server } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { ChannelContextMenu, ServerContextMenu } from "@revolt/app";
-import { useClientLifecycle } from "@revolt/client";
-import { State, TransitionType } from "@revolt/client/Controller";
-import { NotificationsWorker } from "@revolt/client/NotificationsWorker";
-import { useModals } from "@revolt/modal";
-import { Navigate, useBeforeLeave } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
-import { Preloader } from "@revolt/ui";
+import { ChannelContextMenu, ServerContextMenu } from "@uwucord/app";
+import { useClientLifecycle } from "@uwucord/client";
+import { State, TransitionType } from "@uwucord/client/Controller";
+import { NotificationsWorker } from "@uwucord/client/NotificationsWorker";
+import { useModals } from "@uwucord/modal";
+import { Navigate, useBeforeLeave } from "@uwucord/routing";
+import { useState } from "@uwucord/state";
+import { LAYOUT_SECTIONS } from "@uwucord/state/stores/Layout";
+import { Preloader } from "@uwucord/ui";
 
 import { Sidebar } from "./interface/Sidebar";
 

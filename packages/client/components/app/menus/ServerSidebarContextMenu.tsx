@@ -1,9 +1,9 @@
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Server } from "revolt.js";
+import { Server } from "uwucord.js";
 
-import { useModals } from "@revolt/modal";
+import { useModals } from "@uwucord/modal";
 
 import MdLibraryAdd from "@material-design-icons/svg/outlined/library_add.svg?component-solid";
 

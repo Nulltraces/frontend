@@ -1,4 +1,4 @@
-import type { API } from "revolt.js";
+import type { API } from "uwucord.js";
 
 export type Props = {
   /**

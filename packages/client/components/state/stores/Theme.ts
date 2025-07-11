@@ -8,7 +8,7 @@ export type TypeTheme = {
   /**
    * Base theme preset
    */
-  preset: "neutral" | "revolt" | "you";
+  preset: "neutral" | "uwucord" | "you";
 
   /**
    * Light/dark mode
@@ -45,7 +45,7 @@ export type TypeTheme = {
 
 export type SelectedTheme =
   | {
-      preset: "neutral" | "revolt";
+      preset: "neutral" | "uwucord";
       darkMode: boolean;
     }
   | {
@@ -140,7 +140,7 @@ export class Theme extends AbstractStore<"theme", TypeTheme> {
 
     switch (opts.preset) {
       case "neutral":
-      case "revolt":
+      case "uwucord":
         return {
           preset: opts.preset,
           darkMode:

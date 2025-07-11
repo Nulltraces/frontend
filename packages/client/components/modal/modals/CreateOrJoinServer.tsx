@@ -1,6 +1,6 @@
 import { styled } from "styled-system/jsx";
 
-import { iconSize } from "@revolt/ui";
+import { iconSize } from "@uwucord/ui";
 
 import MdAdd from "@material-design-icons/svg/outlined/add.svg?component-solid";
 import MdLink from "@material-design-icons/svg/outlined/link.svg?component-solid";

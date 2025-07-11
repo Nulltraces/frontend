@@ -1,8 +1,8 @@
 import { batch } from "solid-js";
 
-import { API, Channel, Client, Message } from "revolt.js";
+import { API, Channel, Client, Message } from "uwucord.js";
 
-import { CONFIGURATION, insecureUniqueId } from "@revolt/common";
+import { CONFIGURATION, insecureUniqueId } from "@uwucord/common";
 
 import { State } from "..";
 

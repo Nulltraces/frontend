@@ -2,7 +2,7 @@ import { For, Show } from "solid-js";
 
 import { css } from "styled-system/css";
 
-import { useState } from "@revolt/state";
+import { useState } from "@uwucord/state";
 import {
   Badge,
   Button,
@@ -12,7 +12,7 @@ import {
   SingleSelectSegmentedButtonGroup,
   Text,
   TextField,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdColorize from "@material-design-icons/svg/filled/colorize.svg?component-solid";
 
@@ -42,7 +42,7 @@ export function AppearanceMenu() {
           state.theme.setPreset(e.currentTarget.value as never)
         }
       >
-        <SegmentedButton value="neutral">Revolt</SegmentedButton>
+        <SegmentedButton value="neutral">uwucord</SegmentedButton>
         <SegmentedButton value="you">Material You</SegmentedButton>
       </SingleSelectSegmentedButtonGroup>
 

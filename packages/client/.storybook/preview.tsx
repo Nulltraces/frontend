@@ -1,5 +1,5 @@
-import { ApplyGlobalStyles, ThemeProvider, darkTheme } from "@revolt/ui";
-import "@revolt/ui/styles";
+import { ApplyGlobalStyles, ThemeProvider, darkTheme } from "@uwucord/ui";
+import "@uwucord/ui/styles";
 
 import "./panda.css";
 

@@ -1,6 +1,6 @@
-import type { WebsiteEmbed } from "revolt.js";
+import type { WebsiteEmbed } from "uwucord.js";
 
-import { SizedContent } from "@revolt/ui/components/utils";
+import { SizedContent } from "@uwucord/ui/components/utils";
 
 /**
  * Special Embed

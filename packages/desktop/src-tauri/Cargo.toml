@@ -1,11 +1,11 @@
 [package]
-name = "revolt"
+name = "uwucord"
 version = "0.1.0"
 description = "User-first, privacy focused chat platform."
 authors = ["Vexcited"]
 license = "MIT"
-repository = "https://github.com/revoltchat/frontend"
-default-run = "revolt"
+repository = "https://github.com/uwucordchat/frontend"
+default-run = "uwucord"
 edition = "2021"
 rust-version = "1.59"
 

@@ -6,7 +6,7 @@ import {
   CategoryButtonGroup,
   Column,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdBugReport from "@material-design-icons/svg/outlined/bug_report.svg?component-solid";
 import MdExitToApp from "@material-design-icons/svg/outlined/exit_to_app.svg?component-solid";
@@ -22,7 +22,7 @@ export function Feedback() {
     <Column gap="lg">
       <CategoryButtonGroup>
         <Link
-          href="https://github.com/orgs/revoltchat/projects/6/views/4"
+          href="https://github.com/orgs/uwucordchat/projects/6/views/4"
           target="_blank"
         >
           <CategoryButton
@@ -35,7 +35,7 @@ export function Feedback() {
           </CategoryButton>
         </Link>
         <Link
-          href="https://github.com/orgs/revoltchat/discussions"
+          href="https://github.com/orgs/uwucordchat/discussions"
           target="_blank"
         >
           <CategoryButton
@@ -43,14 +43,14 @@ export function Feedback() {
             icon={<MdStar {...iconSize(22)} />}
             onClick={() => void 0}
             description={
-              <Trans>Suggest new Revolt features on GitHub discussions.</Trans>
+              <Trans>Suggest new uwucord features on GitHub discussions.</Trans>
             }
           >
             <Trans>Submit feature suggestion</Trans>
           </CategoryButton>
         </Link>
         <Link
-          href="https://github.com/revoltchat/frontend/issues/new/choose"
+          href="https://github.com/uwucordchat/frontend/issues/new/choose"
           target="_blank"
         >
           <CategoryButton
@@ -63,7 +63,7 @@ export function Feedback() {
           </CategoryButton>
         </Link>
         <Link
-          href="https://github.com/orgs/revoltchat/projects/3"
+          href="https://github.com/orgs/uwucordchat/projects/3"
           target="_blank"
         >
           <CategoryButton
@@ -88,7 +88,7 @@ export function Feedback() {
             </Trans>
           }
         >
-          <Trans>Join the Revolt Lounge</Trans>
+          <Trans>Join the uwucord Lounge</Trans>
         </CategoryButton>
       </CategoryButtonGroup>
     </Column>

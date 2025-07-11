@@ -11,13 +11,13 @@ import {
   User,
   UserModeratedSystemMessage,
   UserSystemMessage,
-} from "revolt.js";
+} from "uwucord.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { RenderAnchor } from "@revolt/markdown/plugins/anchors";
-import { UserMention } from "@revolt/markdown/plugins/mentions";
-import { useSmartParams } from "@revolt/routing";
+import { RenderAnchor } from "@uwucord/markdown/plugins/anchors";
+import { UserMention } from "@uwucord/markdown/plugins/mentions";
+import { useSmartParams } from "@uwucord/routing";
 
 interface Props {
   /**

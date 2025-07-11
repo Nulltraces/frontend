@@ -5,8 +5,8 @@ import { Trans } from "@lingui-solid/solid/macro";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { typography } from "@revolt/ui/components/design";
-import { Row } from "@revolt/ui/components/layout";
+import { typography } from "@uwucord/ui/components/design";
+import { Row } from "@uwucord/ui/components/layout";
 
 interface Props {
   /**

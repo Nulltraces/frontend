@@ -6,7 +6,7 @@ import {
   CategoryCollapse,
   Checkbox,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdMarkUnreadChatAlt from "@material-design-icons/svg/outlined/mark_unread_chat_alt.svg?component-solid";
 import MdNotifications from "@material-design-icons/svg/outlined/notifications.svg?component-solid";

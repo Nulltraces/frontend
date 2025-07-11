@@ -16,19 +16,19 @@ import {
 } from "solid-js";
 
 import isEqual from "lodash.isequal";
-import { Channel, Message as MessageInterface } from "revolt.js";
+import { Channel, Message as MessageInterface } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { useTime } from "@revolt/i18n";
-import { useState } from "@revolt/state";
+import { useClient } from "@uwucord/client";
+import { useTime } from "@uwucord/i18n";
+import { useState } from "@uwucord/state";
 import {
   BlockedMessage,
   ConversationStart,
   JumpToBottom,
   ListView,
   MessageDivider,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import { Message } from "./Message";
 

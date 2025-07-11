@@ -1,6 +1,6 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { Avatar, Modal2, Modal2Props } from "@revolt/ui";
+import { Avatar, Modal2, Modal2Props } from "@uwucord/ui";
 
 import { Modals } from "../types";
 

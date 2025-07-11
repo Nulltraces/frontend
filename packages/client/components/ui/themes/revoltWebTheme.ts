@@ -1,11 +1,11 @@
-import { SelectedTheme } from "@revolt/state/stores/Theme";
+import { SelectedTheme } from "@uwucord/state/stores/Theme";
 
 /**
- * Generate Revolt for Web variables
+ * Generate uwucord for Web variables
  * @param theme Theme
  * @returns CSS Variables
  */
-export function createRevoltWebVariables(theme: SelectedTheme) {
+export function createuwucordWebVariables(theme: SelectedTheme) {
   return {
     // helper variables
     "--unset-fg": "red",

@@ -1,10 +1,10 @@
 import { For, createMemo } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { CategoryButton, Column, Text } from "@revolt/ui";
+import { CategoryButton, Column, Text } from "@uwucord/ui";
 
 import { useSettingsNavigation } from "../../Settings";
 

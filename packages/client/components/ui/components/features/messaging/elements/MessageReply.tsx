@@ -3,15 +3,15 @@ import { Match, Switch } from "solid-js";
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { type Message } from "revolt.js";
+import { type Message } from "uwucord.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { floatingUserMenusFromMessage } from "@revolt/app/menus/UserContextMenu";
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { Avatar } from "@revolt/ui/components/design";
-import { NonBreakingText, OverflowingText } from "@revolt/ui/components/utils";
+import { floatingUserMenusFromMessage } from "@uwucord/app/menus/UserContextMenu";
+import { useClient } from "@uwucord/client";
+import { TextWithEmoji } from "@uwucord/markdown";
+import { Avatar } from "@uwucord/ui/components/design";
+import { NonBreakingText, OverflowingText } from "@uwucord/ui/components/utils";
 
 import { Username } from "../../legacy";
 

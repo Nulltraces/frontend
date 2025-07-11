@@ -1,12 +1,12 @@
 import { For } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import type { Channel } from "revolt.js";
+import type { Channel } from "uwucord.js";
 
-import { useClient, useUser } from "@revolt/client";
-import { userInformation } from "@revolt/markdown/users";
-import type { UnsentMessage } from "@revolt/state/stores/Draft";
-import { Avatar, MessageContainer, MessageReply, Username } from "@revolt/ui";
+import { useClient, useUser } from "@uwucord/client";
+import { userInformation } from "@uwucord/markdown/users";
+import type { UnsentMessage } from "@uwucord/state/stores/Draft";
+import { Avatar, MessageContainer, MessageReply, Username } from "@uwucord/ui";
 
 import { DraftMessageContextMenu } from "../../../menus/DraftMessageContextMenu";
 

@@ -1,4 +1,4 @@
-import { Client } from "revolt.js";
+import { Client } from "uwucord.js";
 
 import { State } from "..";
 

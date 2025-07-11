@@ -1,8 +1,8 @@
 import { For } from "solid-js";
 
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 
-import { useState } from "@revolt/state";
+import { useState } from "@uwucord/state";
 
 import { DraftMessage } from "./DraftMessage";
 

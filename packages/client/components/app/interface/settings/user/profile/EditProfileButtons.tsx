@@ -1,17 +1,17 @@
 import { Match, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { User } from "revolt.js";
+import { User } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { createOwnProfileResource } from "@revolt/client/resources";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@uwucord/client";
+import { createOwnProfileResource } from "@uwucord/client/resources";
+import { useModals } from "@uwucord/modal";
 import {
   CategoryButton,
   CategoryButtonGroup,
   CategoryCollapse,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdBadge from "@material-design-icons/svg/outlined/badge.svg?component-solid";
 import MdCrop169 from "@material-design-icons/svg/outlined/crop_16_9.svg?component-solid";

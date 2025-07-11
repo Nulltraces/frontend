@@ -2,11 +2,11 @@ import { createFormControl, createFormGroup } from "solid-forms";
 import { Show } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import type { API } from "revolt.js";
+import type { API } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { CircularProgress, Column, Form2, Row } from "@revolt/ui";
+import { useClient } from "@uwucord/client";
+import { CONFIGURATION } from "@uwucord/common";
+import { CircularProgress, Column, Form2, Row } from "@uwucord/ui";
 
 import { ServerSettingsProps } from "../ServerSettings";
 

@@ -1,6 +1,6 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { Avatar, Column } from "@revolt/ui";
+import { Avatar, Column } from "@uwucord/ui";
 
 import { createFormModal } from "../form";
 import { PropGenerator } from "../types";

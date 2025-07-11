@@ -2,11 +2,11 @@ import { For, createMemo } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 
-import { Language, Languages, browserPreferredLanguage } from "@revolt/i18n";
-import type { LanguageEntry } from "@revolt/i18n/Languages";
-import { timeLocale } from "@revolt/i18n/dayjs";
-import { UnicodeEmoji } from "@revolt/markdown/emoji";
-import { useState } from "@revolt/state";
+import { Language, Languages, browserPreferredLanguage } from "@uwucord/i18n";
+import type { LanguageEntry } from "@uwucord/i18n/Languages";
+import { timeLocale } from "@uwucord/i18n/dayjs";
+import { UnicodeEmoji } from "@uwucord/markdown/emoji";
+import { useState } from "@uwucord/state";
 import {
   CategoryButton,
   CategoryButtonGroup,
@@ -16,7 +16,7 @@ import {
   Row,
   Time,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdErrorFill from "@material-design-icons/svg/filled/error.svg?component-solid";
 import MdVerifiedFill from "@material-design-icons/svg/filled/verified.svg?component-solid";
@@ -241,7 +241,7 @@ function PickTimeFormat() {
  */
 function ContributeLanguageLink() {
   return (
-    <a href="https://weblate.insrt.uk/engage/revolt/" target="_blank">
+    <a href="https://weblate.insrt.uk/engage/uwucord/" target="_blank">
       <CategoryButton
         action="external"
         icon={<MdTranslate {...iconSize(22)} />}

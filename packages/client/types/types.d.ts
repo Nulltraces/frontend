@@ -8,7 +8,7 @@ import type {
   ServerMember,
   ServerRole,
   User,
-} from "revolt.js";
+} from "uwucord.js";
 
 declare global {
   interface Window {

@@ -4,8 +4,8 @@ import { createStore } from "solid-js/store";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { useError } from "@revolt/i18n";
-import { Column, Form, FormTemplate, typography } from "@revolt/ui";
+import { useError } from "@uwucord/i18n";
+import { Column, Form, FormTemplate, typography } from "@uwucord/ui";
 
 import { useModals } from ".";
 import { Modals, PropGenerator } from "./types";

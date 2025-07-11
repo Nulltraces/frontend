@@ -1,9 +1,9 @@
 import { For, JSX, Match, Switch } from "solid-js";
 
-import { ServerMember } from "revolt.js";
+import { ServerMember } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { CustomEmoji, UnicodeEmoji } from "@revolt/markdown/emoji";
+import { CustomEmoji, UnicodeEmoji } from "@uwucord/markdown/emoji";
 
 import { AutoCompleteState } from "../../directives";
 import { Avatar } from "../design";

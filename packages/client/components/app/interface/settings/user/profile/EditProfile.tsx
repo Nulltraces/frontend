@@ -2,9 +2,9 @@ import { For } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
-import { createOwnProfileResource } from "@revolt/client/resources";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@uwucord/client";
+import { createOwnProfileResource } from "@uwucord/client/resources";
+import { useModals } from "@uwucord/modal";
 import {
   Avatar,
   CategoryButton,
@@ -12,7 +12,7 @@ import {
   CategoryCollapse,
   Column,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdGroups from "@material-design-icons/svg/outlined/groups.svg?component-solid";
 

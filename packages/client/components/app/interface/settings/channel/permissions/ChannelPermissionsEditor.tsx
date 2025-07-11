@@ -1,11 +1,11 @@
 import { For, Match, Show, Switch, createSignal } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import { API, Channel, Server } from "revolt.js";
-import { DEFAULT_PERMISSION_DIRECT_MESSAGE } from "revolt.js";
+import { API, Channel, Server } from "uwucord.js";
+import { DEFAULT_PERMISSION_DIRECT_MESSAGE } from "uwucord.js";
 import { css } from "styled-system/css";
 
-import { Button, Checkbox2, OverrideSwitch, Text } from "@revolt/ui";
+import { Button, Checkbox2, OverrideSwitch, Text } from "@uwucord/ui";
 
 type Props =
   | { type: "server_default"; context: Server }

@@ -4,8 +4,8 @@ import { Show, Suspense, createMemo, createResource } from "solid-js";
 import { useParams } from "@solidjs/router";
 import { styled } from "styled-system/jsx";
 
-import { Modal, Preloader } from "@revolt/ui";
-import { useApi } from "@revolt/client";
+import { Modal, Preloader } from "@uwucord/ui";
+import { useApi } from "@uwucord/client";
 
 const Centre = styled("div", {
   base: {
@@ -57,7 +57,7 @@ export function ConfirmDelete() {
           {"missing i18n"}
           <br />
           {"missing i18n"}{" "}
-          <a href="mailto:contact@revolt.chat">{"missing i18n"}</a>{" "}
+          <a href="mailto:contact@uwucord.chat">{"missing i18n"}</a>{" "}
           {"missing i18n"}
         </>
       );

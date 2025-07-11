@@ -16,11 +16,11 @@ import {
 } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Session } from "revolt.js";
+import { Session } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
 import {
   CategoryButton,
   CategoryButtonGroup,
@@ -29,7 +29,7 @@ import {
   Preloader,
   Time,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import _MdAutoMode from "@material-design-icons/svg/outlined/auto_mode.svg?component-solid";
 import MdLogout from "@material-design-icons/svg/outlined/logout.svg?component-solid";

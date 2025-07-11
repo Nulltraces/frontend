@@ -13,7 +13,7 @@ import {
   hexFromArgb,
 } from "@material/material-color-utilities";
 
-import { SelectedTheme, TypeTheme } from "@revolt/state/stores/Theme";
+import { SelectedTheme, TypeTheme } from "@uwucord/state/stores/Theme";
 
 /**
  * Generate the Material variables from the given properties
@@ -243,13 +243,13 @@ function generateMaterialYouScheme(
 }
 
 /**
- * Colours imported from Revolt for Android project
- * https://github.com/revoltchat/android/blob/dev/app/src/main/java/chat/revolt/ui/theme/Colour.kt
+ * Colours imported from uwucord for Android project
+ * https://github.com/uwucordchat/android/blob/dev/app/src/main/java/chat/uwucord/ui/theme/Colour.kt
  */
 const AndroidNeutralColours:
   | addSuffixToObject<MaterialColours, "-light">
   | addSuffixToObject<MaterialColours, "-dark"> = {
-  // "revolt-ultra-pink": "#ff005c",
+  // "uwucord-ultra-pink": "#ff005c",
 
   "primary-light": "#bd0042",
   "on-primary-light": "#ffffff",

@@ -1,11 +1,11 @@
 import { Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Message } from "revolt.js";
+import { Message } from "uwucord.js";
 
-import { useClient, useUser } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
+import { useClient, useUser } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
+import { useState } from "@uwucord/state";
 
 import MdBadge from "@material-design-icons/svg/outlined/badge.svg?component-solid";
 import MdContentCopy from "@material-design-icons/svg/outlined/content_copy.svg?component-solid";
@@ -80,11 +80,11 @@ export function MessageContextMenu(props: { message: Message }) {
   }
 
   /**
-   * Open message in Revolt Admin Panel
+   * Open message in uwucord Admin Panel
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.revolt.chat/panel/inspect/message/${props.message.id}`,
+      `https://admin.uwucord.chat/panel/inspect/message/${props.message.id}`,
       "_blank",
     );
   }

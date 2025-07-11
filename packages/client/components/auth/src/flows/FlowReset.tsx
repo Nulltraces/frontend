@@ -1,9 +1,9 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useApi } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useNavigate } from "@revolt/routing";
-import { Button } from "@revolt/ui";
+import { useApi } from "@uwucord/client";
+import { CONFIGURATION } from "@uwucord/common";
+import { useNavigate } from "@uwucord/routing";
+import { Button } from "@uwucord/ui";
 
 import { FlowTitle } from "./Flow";
 import { setFlowCheckEmail } from "./FlowCheck";

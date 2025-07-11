@@ -4,7 +4,7 @@ import { resolve } from "node:path";
 
 const publicFolder = resolve("public");
 const path = resolve("public", "assets");
-const revoltAssets = resolve("assets");
+const uwucordAssets = resolve("assets");
 const fallbackAssets = resolve("scripts", "assets_fallback");
 
 /**
@@ -12,12 +12,12 @@ const fallbackAssets = resolve("scripts", "assets_fallback");
  */
 async function createSymlink() {
   try {
-    await lstat(revoltAssets);
-    if ((await readdir(revoltAssets)).length === 0) throw "Empty Directory";
-    await lnk(resolve(revoltAssets), resolve(publicFolder), {
+    await lstat(uwucordAssets);
+    if ((await readdir(uwucordAssets)).length === 0) throw "Empty Directory";
+    await lnk(resolve(uwucordAssets), resolve(publicFolder), {
       rename: "assets",
     });
-    console.info(`Configured Revolt assets.`);
+    console.info(`Configured uwucord assets.`);
   } catch (error) {
     if (error === "Empty Directory" || error.code === "ENOENT") {
       await lnk(resolve(fallbackAssets), resolve(publicFolder), {

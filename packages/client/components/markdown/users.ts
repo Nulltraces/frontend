@@ -1,11 +1,11 @@
 import { Accessor, createMemo } from "solid-js";
 
-import { ServerMember, User } from "revolt.js";
+import { ServerMember, User } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { useParams } from "@revolt/routing";
+import { useClient } from "@uwucord/client";
+import { useParams } from "@uwucord/routing";
 
-// TODO: move to @revolt/common?
+// TODO: move to @uwucord/common?
 
 /**
  * Resolved user information

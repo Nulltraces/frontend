@@ -8,7 +8,7 @@ import {
   Modal2,
   Modal2Props,
   OverflowingText,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

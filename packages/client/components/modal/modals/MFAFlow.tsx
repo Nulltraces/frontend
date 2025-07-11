@@ -9,9 +9,9 @@ import {
 } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import type { API } from "revolt.js";
+import type { API } from "uwucord.js";
 
-import { CategoryButton, Preloader, TextField } from "@revolt/ui";
+import { CategoryButton, Preloader, TextField } from "@uwucord/ui";
 
 import { PropGenerator } from "../types";
 

@@ -6,11 +6,11 @@ import {
   TextEmbed as TextEmbedClass,
   VideoEmbed,
   WebsiteEmbed,
-} from "revolt.js";
+} from "uwucord.js";
 import { css } from "styled-system/css";
 
-import { useModals } from "@revolt/modal";
-import { SizedContent } from "@revolt/ui/components/utils";
+import { useModals } from "@uwucord/modal";
+import { SizedContent } from "@uwucord/ui/components/utils";
 
 import { TextEmbed } from "./TextEmbed";
 

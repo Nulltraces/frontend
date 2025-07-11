@@ -6,7 +6,7 @@ import {
   Checkbox,
   Column,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdCancelPresentation from "@material-design-icons/svg/outlined/cancel_presentation.svg?component-solid";
 import MdDesktopWindows from "@material-design-icons/svg/outlined/desktop_windows.svg?component-solid";
@@ -25,7 +25,7 @@ export default function Native() {
           onClick={() => void 0}
           icon={<MdExitToApp {...iconSize(22)} />}
           description={
-            <Trans>Launch Revolt when you log into your computer.</Trans>
+            <Trans>Launch uwucord when you log into your computer.</Trans>
           }
         >
           <Trans>Start with Computer</Trans>
@@ -35,7 +35,7 @@ export default function Native() {
           onClick={() => void 0}
           icon={<MdCancelPresentation {...iconSize(22)} />}
           description={
-            <Trans>Instead of closing, Revolt will hide in your tray.</Trans>
+            <Trans>Instead of closing, uwucord will hide in your tray.</Trans>
           }
         >
           <Trans>Minimise to Tray</Trans>
@@ -46,7 +46,7 @@ export default function Native() {
           action={<Checkbox value onChange={(value) => void value} />}
           onClick={() => void 0}
           icon={<MdWebAsset {...iconSize(22)} />}
-          description={<Trans>Let Revolt use its own custom titlebar.</Trans>}
+          description={<Trans>Let uwucord use its own custom titlebar.</Trans>}
         >
           <Trans>Custom window frame</Trans>
         </CategoryButton>
@@ -56,7 +56,7 @@ export default function Native() {
           icon={<MdDesktopWindows {...iconSize(22)} />}
           description="Version 1.0.0"
         >
-          <Trans>Revolt Desktop</Trans>
+          <Trans>uwucord Desktop</Trans>
         </CategoryButton>
       </CategoryButtonGroup>
     </Column>

@@ -3,13 +3,13 @@ import { JSX, Match, Show, Switch } from "solid-js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { Ripple, typography } from "@revolt/ui/components/design";
-import { Column, Row } from "@revolt/ui/components/layout";
+import { Ripple, typography } from "@uwucord/ui/components/design";
+import { Column, Row } from "@uwucord/ui/components/layout";
 import {
   NonBreakingText,
   OverflowingText,
   Time,
-} from "@revolt/ui/components/utils";
+} from "@uwucord/ui/components/utils";
 
 interface CommonProps {
   /**

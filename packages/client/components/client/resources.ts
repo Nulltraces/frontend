@@ -1,5 +1,5 @@
 import { createQuery } from "@tanstack/solid-query";
-import { User } from "revolt.js";
+import { User } from "uwucord.js";
 
 import { useClient } from ".";
 

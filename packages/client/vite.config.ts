@@ -33,8 +33,8 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 3000000
       },
       manifest: {
-        name: "Revolt",
-        short_name: "Revolt",
+        name: "uwucord",
+        short_name: "uwucord",
         description: "User-first open source chat platform.",
         categories: ["communication", "chat", "messaging"],
         start_url: "/pwa",
@@ -86,7 +86,7 @@ export default defineConfig({
       ...readdirSync(resolve(__dirname, "components")).reduce(
         (p, f) => ({
           ...p,
-          [`@revolt/${f}`]: resolve(__dirname, "components", f),
+          [`@uwucord/${f}`]: resolve(__dirname, "components", f),
         }),
         {},
       ),

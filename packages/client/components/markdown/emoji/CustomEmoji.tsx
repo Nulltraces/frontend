@@ -1,6 +1,6 @@
 import { ComponentProps, splitProps } from "solid-js";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@uwucord/client";
 
 import { EmojiBase } from ".";
 

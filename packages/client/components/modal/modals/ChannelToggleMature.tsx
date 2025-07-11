@@ -3,7 +3,7 @@ import { Match, Switch } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { useMutation } from "@tanstack/solid-query";
 
-import { Modal2, Modal2Props } from "@revolt/ui";
+import { Modal2, Modal2Props } from "@uwucord/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

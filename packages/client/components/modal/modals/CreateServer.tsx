@@ -1,6 +1,6 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useNavigate } from "@revolt/routing";
+import { useNavigate } from "@uwucord/routing";
 
 import { createFormModal } from "../form";
 import { PropGenerator } from "../types";
@@ -17,7 +17,7 @@ const CreateServer: PropGenerator<"create_server"> = (props) => {
       description: (
         <Trans>
           By creating this server, you agree to the{" "}
-          <a href="https://revolt.chat/aup" target="_blank" rel="noreferrer">
+          <a href="https://uwucord.chat/aup" target="_blank" rel="noreferrer">
             <Trans>Acceptable Use Policy</Trans>
           </a>
           .

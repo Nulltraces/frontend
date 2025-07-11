@@ -6,7 +6,7 @@ let
   # pkgs = import (fetchTarball ("channel:nixpkgs-unstable")) { };
 in
 pkgs.mkShell {
-  name = "revoltEnv";
+  name = "uwucordEnv";
 
   buildInputs = [
     # Tools

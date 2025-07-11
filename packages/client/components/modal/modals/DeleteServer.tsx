@@ -1,6 +1,6 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@uwucord/client";
 
 import { useModals } from "..";
 import { createFormModal } from "../form";

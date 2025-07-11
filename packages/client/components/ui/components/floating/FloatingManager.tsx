@@ -13,7 +13,7 @@ import { Motion, Presence } from "solid-motionone";
 
 import { autoUpdate, flip, offset, shift } from "@floating-ui/dom";
 
-import { Keybind, KeybindAction } from "@revolt/keybinds";
+import { Keybind, KeybindAction } from "@uwucord/keybinds";
 
 import { FloatingElement, floatingElements } from "../../directives";
 

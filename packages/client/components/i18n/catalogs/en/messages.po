@@ -919,8 +919,8 @@ msgid "Disable one-time password authenticator"
 msgstr "Disable one-time password authenticator"
 
 #: src/interface/Home.tsx:206
-msgid "Discover Revolt"
-msgstr "Discover Revolt"
+msgid "Discover uwucord"
+msgstr "Discover uwucord"
 
 #: components/modal/modals/EditDisplayName.tsx:35
 #: components/app/interface/settings/user/profile/EditProfileButtons.tsx:86
@@ -932,12 +932,12 @@ msgid "Donate"
 msgstr "Donate"
 
 #: src/interface/Home.tsx:192
-msgid "Donate to Revolt"
-msgstr "Donate to Revolt"
+msgid "Donate to uwucord"
+msgstr "Donate to uwucord"
 
 #: components/ui/components/profiles/ProfileBadges.tsx:60
-msgid "Donated to Revolt"
-msgstr "Donated to Revolt"
+msgid "Donated to uwucord"
+msgstr "Donated to uwucord"
 
 #: components/modal/modals/MFARecovery.tsx:57
 msgid "Done"
@@ -1114,8 +1114,8 @@ msgid "Get active recovery codes"
 msgstr "Get active recovery codes"
 
 #: src/interface/Home.tsx:217
-msgid "Give feedback on Revolt"
-msgstr "Give feedback on Revolt"
+msgid "Give feedback on uwucord"
+msgstr "Give feedback on uwucord"
 
 #: components/modal/modals/ReportContent.tsx:135
 msgid "Give us some detail"
@@ -1157,8 +1157,8 @@ msgid "Help contribute to an existing or new language"
 msgstr "Help contribute to an existing or new language"
 
 #: components/ui/components/profiles/ProfileBadges.tsx:71
-msgid "Helped translate Revolt"
-msgstr "Helped translate Revolt"
+msgid "Helped translate uwucord"
+msgstr "Helped translate uwucord"
 
 #. placeholder {0}: link()
 #: components/modal/modals/CreateInvite.tsx:68
@@ -1193,8 +1193,8 @@ msgid "Impersonation"
 msgstr "Impersonation"
 
 #: components/app/interface/settings/user/Native.tsx:42
-msgid "Instead of closing, Revolt will hide in your tray."
-msgstr "Instead of closing, Revolt will hide in your tray."
+msgid "Instead of closing, uwucord will hide in your tray."
+msgstr "Instead of closing, uwucord will hide in your tray."
 
 #: src/interface/Home.tsx:143
 msgid "Invite all of your friends, some cool bots, and throw a big party."
@@ -1237,8 +1237,8 @@ msgid "Join call"
 msgstr "Join call"
 
 #: components/app/interface/settings/user/Feedback.tsx:91
-msgid "Join the Revolt Lounge"
-msgstr "Join the Revolt Lounge"
+msgid "Join the uwucord Lounge"
+msgstr "Join the uwucord Lounge"
 
 #: components/ui/components/profiles/ProfileJoined.tsx:18
 msgid "Joined"
@@ -1286,12 +1286,12 @@ msgid "Last sync <0/>"
 msgstr "Last sync <0/>"
 
 #: components/app/interface/settings/user/Native.tsx:30
-msgid "Launch Revolt when you log into your computer."
-msgstr "Launch Revolt when you log into your computer."
+msgid "Launch uwucord when you log into your computer."
+msgstr "Launch uwucord when you log into your computer."
 
 #: components/app/interface/settings/user/bots/MyBots.tsx:69
-msgid "Learn more about how to create bots on Revolt."
-msgstr "Learn more about how to create bots on Revolt."
+msgid "Learn more about how to create bots on uwucord."
+msgstr "Learn more about how to create bots on uwucord."
 
 #: components/modal/modals/LeaveServer.tsx:31
 #: components/modal/modals/DeleteChannel.tsx:51
@@ -1338,8 +1338,8 @@ msgstr "Leave silently"
 #~ msgstr "Let members upload files to the group."
 
 #: components/app/interface/settings/user/Native.tsx:55
-msgid "Let Revolt use its own custom titlebar."
-msgstr "Let Revolt use its own custom titlebar."
+msgid "Let uwucord use its own custom titlebar."
+msgstr "Let uwucord use its own custom titlebar."
 
 #: src/interface/Home.tsx:211
 msgid "Let us know how we can improve our app by giving us feedback."
@@ -1523,8 +1523,8 @@ msgid "New Password"
 msgstr "New Password"
 
 #: components/app/interface/channels/text/Message.tsx:203
-msgid "New to Revolt"
-msgstr "New to Revolt"
+msgid "New to uwucord"
+msgstr "New to uwucord"
 
 #: components/app/interface/channels/text/Message.tsx:215
 msgid "New to the server"
@@ -1705,8 +1705,8 @@ msgid "React to messages with emoji"
 msgstr "React to messages with emoji"
 
 #: components/modal/modals/Changelog.tsx:53
-msgid "Read about updates to Revolt."
-msgstr "Read about updates to Revolt."
+msgid "Read about updates to uwucord."
+msgstr "Read about updates to uwucord."
 
 #: components/app/interface/settings/channel/permissions/ChannelPermissionsEditor.tsx:228
 msgid "Read Message History"
@@ -1867,20 +1867,20 @@ msgid "Review policy changes"
 msgstr "Review policy changes"
 
 #: components/app/interface/settings/user/Native.tsx:66
-msgid "Revolt Desktop"
-msgstr "Revolt Desktop"
+msgid "uwucord Desktop"
+msgstr "uwucord Desktop"
 
 #: components/ui/components/profiles/ProfileBadges.tsx:49
-msgid "Revolt Developer"
-msgstr "Revolt Developer"
+msgid "uwucord Developer"
+msgstr "uwucord Developer"
 
 #: components/ui/components/profiles/ProfileBadges.tsx:38
-msgid "Revolt Founder"
-msgstr "Revolt Founder"
+msgid "uwucord Founder"
+msgstr "uwucord Founder"
 
 #: components/auth/src/flows/FlowHome.tsx:60
-msgid "Revolt is one of the best ways to stay connected with your friends and community, anywhere, anytime."
-msgstr "Revolt is one of the best ways to stay connected with your friends and community, anywhere, anytime."
+msgid "uwucord is one of the best ways to stay connected with your friends and community, anywhere, anytime."
+msgstr "uwucord is one of the best ways to stay connected with your friends and community, anywhere, anytime."
 
 #: components/app/interface/settings/user/Feedback.tsx:34
 msgid "Roadmap"
@@ -2053,8 +2053,8 @@ msgid "Several people are typing…"
 msgstr "Several people are typing…"
 
 #: components/auth/src/flows/FlowLogin.tsx:65
-msgid "Sign into Revolt"
-msgstr "Sign into Revolt"
+msgid "Sign into uwucord"
+msgstr "Sign into uwucord"
 
 #: components/auth/src/flows/FlowHome.tsx:78
 msgid "Sign Up"
@@ -2117,8 +2117,8 @@ msgid "Subscriptions"
 msgstr "Subscriptions"
 
 #: components/app/interface/settings/user/Feedback.tsx:46
-msgid "Suggest new Revolt features on GitHub discussions."
-msgstr "Suggest new Revolt features on GitHub discussions."
+msgid "Suggest new uwucord features on GitHub discussions."
+msgstr "Suggest new uwucord features on GitHub discussions."
 
 #: src/interface/Home.tsx:188
 msgid "Support the project by donating - thank you!"
@@ -2393,8 +2393,8 @@ msgid "You won't be able to rejoin unless you are re-invited."
 msgstr "You won't be able to rejoin unless you are re-invited."
 
 #: components/modal/modals/SignedOut.tsx:11
-msgid "You've been signed out of Revolt!"
-msgstr "You've been signed out of Revolt!"
+msgid "You've been signed out of uwucord!"
+msgstr "You've been signed out of uwucord!"
 
 #: components/app/interface/settings/user/Account.tsx:324
 msgid "Your account and all of your data (including your messages and friends list) will be queued for deletion. A confirmation email will be sent - you can cancel this within 7 days by contacting support."

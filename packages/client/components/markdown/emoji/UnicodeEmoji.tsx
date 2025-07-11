@@ -20,7 +20,7 @@ export function UnicodeEmoji(
       class="emoji"
       alt={local.emoji}
       draggable={false}
-      src={`https://static.revolt.chat/emoji/fluent-3d/${toCodepoint(
+      src={`https://static.uwucord.chat/emoji/fluent-3d/${toCodepoint(
         local.emoji,
       )}.svg?v=1`}
     />

@@ -12,12 +12,12 @@ import {
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { VirtualContainer } from "@minht11/solid-virtual-container";
-import type { User } from "revolt.js";
+import type { User } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { UserContextMenu } from "@revolt/app";
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
+import { UserContextMenu } from "@uwucord/app";
+import { useClient } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
 import {
   Avatar,
   Badge,
@@ -32,7 +32,7 @@ import {
   OverflowingText,
   UserStatus,
   main,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdAdd from "@material-design-icons/svg/outlined/add.svg?component-solid";
 import MdBlock from "@material-design-icons/svg/outlined/block.svg?component-solid";

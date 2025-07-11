@@ -4,7 +4,7 @@ import { Trans } from "@lingui-solid/solid/macro";
 import { t } from "@lingui/core/macro";
 import { useMutation } from "@tanstack/solid-query";
 
-import { Form2, Modal2, Modal2Props } from "@revolt/ui";
+import { Form2, Modal2, Modal2Props } from "@uwucord/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

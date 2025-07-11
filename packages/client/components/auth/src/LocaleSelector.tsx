@@ -1,8 +1,8 @@
 import { For } from "solid-js";
 
-import { Language, Languages } from "@revolt/i18n/locales/Languages";
-import { useState } from "@revolt/state";
-import { ComboBox } from "@revolt/ui";
+import { Language, Languages } from "@uwucord/i18n/locales/Languages";
+import { useState } from "@uwucord/state";
+import { ComboBox } from "@uwucord/ui";
 
 /**
  * Dropdown box for selecting the current language

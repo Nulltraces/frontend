@@ -3,9 +3,9 @@ import { For, Match, Switch } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { t } from "@lingui/core/macro";
 import { useQuery, useQueryClient } from "@tanstack/solid-query";
-import { Server, ServerInvite } from "revolt.js";
+import { Server, ServerInvite } from "uwucord.js";
 
-import { useModals } from "@revolt/modal";
+import { useModals } from "@uwucord/modal";
 import {
   Avatar,
   Button,
@@ -14,7 +14,7 @@ import {
   DataTable,
   Row,
   Text,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";
 

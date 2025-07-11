@@ -4,12 +4,12 @@ import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 import { decodeTime, ulid } from "ulid";
 
-import { DraftMessages, Messages } from "@revolt/app";
-import { useClient } from "@revolt/client";
-import { Keybind, KeybindAction, createKeybind } from "@revolt/keybinds";
-import { useNavigate, useSmartParams } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
+import { DraftMessages, Messages } from "@uwucord/app";
+import { useClient } from "@uwucord/client";
+import { Keybind, KeybindAction, createKeybind } from "@uwucord/keybinds";
+import { useNavigate, useSmartParams } from "@uwucord/routing";
+import { useState } from "@uwucord/state";
+import { LAYOUT_SECTIONS } from "@uwucord/state/stores/Layout";
 import {
   BelowFloatingHeader,
   Header,
@@ -17,7 +17,7 @@ import {
   Text,
   TypingIndicator,
   main,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import { ChannelHeader } from "../ChannelHeader";
 import { ChannelPageProps } from "../ChannelPage";

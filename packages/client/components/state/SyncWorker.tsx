@@ -1,8 +1,8 @@
 import { createEffect, on, onCleanup } from "solid-js";
 
-import { ProtocolV1 } from "revolt.js/lib/events/v1";
+import { ProtocolV1 } from "uwucord.js/lib/events/v1";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@uwucord/client";
 
 import { useState } from ".";
 

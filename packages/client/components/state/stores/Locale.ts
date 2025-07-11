@@ -3,9 +3,9 @@ import {
   Languages,
   browserPreferredLanguage,
   loadAndSwitchLocale,
-} from "@revolt/i18n";
-import type { LocaleOptions } from "@revolt/i18n/Languages";
-import { updateTimeLocaleOptions } from "@revolt/i18n/dayjs";
+} from "@uwucord/i18n";
+import type { LocaleOptions } from "@uwucord/i18n/Languages";
+import { updateTimeLocaleOptions } from "@uwucord/i18n/dayjs";
 
 import { State } from "..";
 

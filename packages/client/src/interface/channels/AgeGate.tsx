@@ -3,9 +3,9 @@ import { JSXElement, Match, Switch, createEffect } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
-import { Button, Checkbox, iconSize } from "@revolt/ui";
+import { useState } from "@uwucord/state";
+import { LAYOUT_SECTIONS } from "@uwucord/state/stores/Layout";
+import { Button, Checkbox, iconSize } from "@uwucord/ui";
 
 import MdWarning from "@material-design-icons/svg/round/warning.svg?component-solid";
 

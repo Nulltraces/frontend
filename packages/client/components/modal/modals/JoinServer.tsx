@@ -1,4 +1,4 @@
-import { useNavigate } from "@revolt/routing";
+import { useNavigate } from "@uwucord/routing";
 
 import { createFormModal } from "../form";
 import { PropGenerator } from "../types";

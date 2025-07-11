@@ -7,12 +7,12 @@ import {
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { t } from "@lingui/core/macro";
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { ColouredText } from "@revolt/ui";
+import { useClient } from "@uwucord/client";
+import { TextWithEmoji } from "@uwucord/markdown";
+import { useModals } from "@uwucord/modal";
+import { ColouredText } from "@uwucord/ui";
 
 import { SettingsConfiguration } from ".";
 import ChannelOverview from "./channel/Overview";

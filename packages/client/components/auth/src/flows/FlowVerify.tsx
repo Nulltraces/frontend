@@ -2,10 +2,10 @@ import { Match, Show, Switch, createSignal, onMount } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useApi, useClientLifecycle } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useNavigate, useParams } from "@revolt/routing";
-import { Button, Preloader } from "@revolt/ui";
+import { useApi, useClientLifecycle } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
+import { useNavigate, useParams } from "@uwucord/routing";
+import { Button, Preloader } from "@uwucord/ui";
 
 import { FlowTitle } from "./Flow";
 
@@ -61,7 +61,7 @@ export default function FlowVerify() {
   });
 
   /**
-   * Use MFA ticket to log into Revolt
+   * Use MFA ticket to log into uwucord
    */
   async function performLogin() {
     const v = state();

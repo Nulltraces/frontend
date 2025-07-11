@@ -1,14 +1,14 @@
 import { Accessor, For, Show } from "solid-js";
 import { JSX } from "solid-js";
 
-import { Channel, Server, User } from "revolt.js";
+import { Channel, Server, User } from "uwucord.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { KeybindAction, createKeybind } from "@revolt/keybinds";
-import { useModals } from "@revolt/modal";
-import { useNavigate } from "@revolt/routing";
-import { Avatar, Column, Text, Unreads, UserStatus } from "@revolt/ui";
+import { KeybindAction, createKeybind } from "@uwucord/keybinds";
+import { useModals } from "@uwucord/modal";
+import { useNavigate } from "@uwucord/routing";
+import { Avatar, Column, Text, Unreads, UserStatus } from "@uwucord/ui";
 
 import MdAdd from "@material-design-icons/svg/filled/add.svg?component-solid";
 import MdExplore from "@material-design-icons/svg/filled/explore.svg?component-solid";

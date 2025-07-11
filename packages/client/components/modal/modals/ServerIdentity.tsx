@@ -1,7 +1,7 @@
 import { Accessor, createEffect, createSignal } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { ServerMember } from "revolt.js";
+import { ServerMember } from "uwucord.js";
 
 import {
   Avatar,
@@ -9,7 +9,7 @@ import {
   MessageContainer,
   TextField,
   Username,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import { PropGenerator } from "../types";
 

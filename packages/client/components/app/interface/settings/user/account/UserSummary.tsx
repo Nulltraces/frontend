@@ -1,10 +1,10 @@
 import { Show } from "solid-js";
 
-import { User } from "revolt.js";
+import { User } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { useTime } from "@revolt/i18n";
-import { Avatar, Button, CategoryButtonGroup, iconSize } from "@revolt/ui";
+import { useTime } from "@uwucord/i18n";
+import { Avatar, Button, CategoryButtonGroup, iconSize } from "@uwucord/ui";
 
 import MdCakeFill from "@material-design-icons/svg/filled/cake.svg?component-solid";
 import MdEdit from "@material-design-icons/svg/outlined/edit.svg?component-solid";

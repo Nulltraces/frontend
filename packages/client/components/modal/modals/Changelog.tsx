@@ -3,9 +3,9 @@ import { For, Match, Switch, createSignal } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { useTime } from "@revolt/i18n";
-import { CategoryButton, Column } from "@revolt/ui";
-import type { Action } from "@revolt/ui/components/design/atoms/display/Modal";
+import { useTime } from "@uwucord/i18n";
+import { CategoryButton, Column } from "@uwucord/ui";
+import type { Action } from "@uwucord/ui/components/design/atoms/display/Modal";
 
 import { PropGenerator } from "../types";
 
@@ -50,7 +50,7 @@ const Changelog: PropGenerator<"changelog"> = (props) => {
       </Switch>
     ),
     description: (
-      <Switch fallback={<Trans>Read about updates to Revolt.</Trans>}>
+      <Switch fallback={<Trans>Read about updates to uwucord.</Trans>}>
         <Match when={currentLog()}>
           {dayjs(currentLog()!.date).calendar()}
         </Match>

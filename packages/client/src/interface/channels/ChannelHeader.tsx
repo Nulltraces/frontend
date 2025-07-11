@@ -2,16 +2,16 @@ import { BiRegularAt, BiRegularHash, BiSolidNotepad } from "solid-icons/bi";
 import { Accessor, Match, Setter, Show, Switch, createSignal } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { Channel } from "revolt.js";
+import { Channel } from "uwucord.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { useVoice } from "@revolt/rtc";
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
+import { useClient } from "@uwucord/client";
+import { TextWithEmoji } from "@uwucord/markdown";
+import { useModals } from "@uwucord/modal";
+import { useVoice } from "@uwucord/rtc";
+import { useState } from "@uwucord/state";
+import { LAYOUT_SECTIONS } from "@uwucord/state/stores/Layout";
 import {
   Button,
   NonBreakingText,
@@ -19,7 +19,7 @@ import {
   Spacer,
   UserStatus,
   typography,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdCall from "@material-design-icons/svg/outlined/call.svg?component-solid";
 import MdGroup from "@material-design-icons/svg/outlined/group.svg?component-solid";

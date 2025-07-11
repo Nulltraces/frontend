@@ -6,7 +6,7 @@ import { t } from "@lingui/core/macro";
 import { useMutation } from "@tanstack/solid-query";
 import { css } from "styled-system/css";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@uwucord/client";
 import {
   Avatar,
   Column,
@@ -16,7 +16,7 @@ import {
   Row,
   Text,
   TextField,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

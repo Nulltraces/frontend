@@ -8,7 +8,7 @@
   "importOrder": [
     "^solid",
     "<THIRD_PARTY_MODULES>",
-    "^@revolt",
+    "^@uwucord",
     "^@material-design-icons|^solid-icons",
     "^\\.\\.",
     "^[./]"

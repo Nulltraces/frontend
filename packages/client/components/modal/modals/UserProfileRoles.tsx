@@ -3,7 +3,7 @@ import { For, Match, Switch } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { Checkbox2, Column, Modal2, Modal2Props, Row } from "@revolt/ui";
+import { Checkbox2, Column, Modal2, Modal2Props, Row } from "@uwucord/ui";
 
 import { Modals } from "../types";
 

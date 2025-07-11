@@ -3,7 +3,7 @@ import { Match, Switch, createSignal, onMount } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { CONFIGURATION } from "@revolt/common";
+import { CONFIGURATION } from "@uwucord/common";
 
 import { useModals } from "..";
 import { createFormModal } from "../form";
@@ -43,7 +43,7 @@ const CreateInvite: PropGenerator<"create_invite"> = (props) => {
       .createInvite()
       .then(({ _id }) =>
         setLink(
-          CONFIGURATION.IS_REVOLT
+          CONFIGURATION.IS_uwucord
             ? `https://rvlt.gg/${_id}`
             : `${window.location.protocol}//${window.location.host}/invite/${_id}`,
         ),

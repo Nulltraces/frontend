@@ -1,6 +1,6 @@
 import { Show } from "solid-js";
 
-import { ServerMember, User } from "revolt.js";
+import { ServerMember, User } from "uwucord.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 

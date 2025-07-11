@@ -1,12 +1,12 @@
 import { For, Match, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { User } from "revolt.js";
+import { User } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { useUsers } from "@revolt/markdown/users";
-import { Avatar, typography } from "@revolt/ui/components/design";
-import { OverflowingText } from "@revolt/ui/components/utils";
+import { useUsers } from "@uwucord/markdown/users";
+import { Avatar, typography } from "@uwucord/ui/components/design";
+import { OverflowingText } from "@uwucord/ui/components/utils";
 
 interface Props {
   /**

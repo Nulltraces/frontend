@@ -10,10 +10,10 @@ import {
   TextSystemMessage,
   UserModeratedSystemMessage,
   UserSystemMessage,
-} from "revolt.js";
+} from "uwucord.js";
 
-import { useNavigate, useSmartParams } from "@revolt/routing";
-import { useState } from "@revolt/state";
+import { useNavigate, useSmartParams } from "@uwucord/routing";
+import { useState } from "@uwucord/state";
 
 import { useClient } from ".";
 

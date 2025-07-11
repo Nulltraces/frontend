@@ -2,7 +2,7 @@ import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { Button } from "@revolt/ui";
+import { Button } from "@uwucord/ui";
 
 interface Props {
   email?: string;
@@ -102,10 +102,10 @@ function mapMailProvider(email?: string): [string, string] | undefined {
     case "ro.ru":
     case "rambler.ua":
       return ["Rambler", "https://rambler.ru/"];
-    case "revolt.chat":
-    case "revolt.wtf":
+    case "uwucord.chat":
+    case "uwucord.wtf":
     case "insert.moe":
-      return ["Revolt Mail", "https://webmail.revolt.wtf"];
+      return ["uwucord Mail", "https://webmail.uwucord.wtf"];
     default:
       return [domain, `https://${domain}`];
   }

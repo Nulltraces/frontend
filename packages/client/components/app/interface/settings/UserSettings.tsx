@@ -1,10 +1,10 @@
 import { Trans } from "@lingui-solid/solid/macro";
-import { Server } from "revolt.js";
+import { Server } from "uwucord.js";
 
-import { useClient, useClientLifecycle } from "@revolt/client";
-import { useUser } from "@revolt/markdown/users";
-import { useModals } from "@revolt/modal";
-import { ColouredText, Column, iconSize } from "@revolt/ui";
+import { useClient, useClientLifecycle } from "@uwucord/client";
+import { useUser } from "@uwucord/markdown/users";
+import { useModals } from "@uwucord/modal";
+import { ColouredText, Column, iconSize } from "@uwucord/ui";
 
 import MdAccountCircle from "@material-design-icons/svg/outlined/account_circle.svg?component-solid";
 import _MdDesktopWindows from "@material-design-icons/svg/outlined/desktop_windows.svg?component-solid";
@@ -129,7 +129,7 @@ const Config: SettingsConfiguration<{ server: Server }> = {
           ],
         },
         {
-          title: "Revolt",
+          title: "uwucord",
           entries: [
             {
               id: "bots",
@@ -142,7 +142,7 @@ const Config: SettingsConfiguration<{ server: Server }> = {
               title: <Trans>Feedback</Trans>,
             },
             {
-              href: "https://wiki.revolt.chat/notes/project/financial-support/",
+              href: "https://wiki.uwucord.chat/notes/project/financial-support/",
               icon: <MdLocalCafe {...iconSize(20)} />,
               title: <Trans>Donate</Trans>,
             },
@@ -227,7 +227,7 @@ const Config: SettingsConfiguration<{ server: Server }> = {
             //   title: t("app.special.modals.changelogs.title"),
             // },
             {
-              href: "https://github.com/revoltchat",
+              href: "https://github.com/uwucordchat",
               icon: <MdMemory {...iconSize(20)} />,
               title: <Trans>Source Code</Trans>,
             },

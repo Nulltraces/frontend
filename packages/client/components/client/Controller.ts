@@ -1,13 +1,13 @@
 import { Accessor, Setter, createSignal } from "solid-js";
 
 import { detect } from "detect-browser";
-import { API, Client, ConnectionState } from "revolt.js";
-import { ProtocolV1 } from "revolt.js/lib/events/v1";
+import { API, Client, ConnectionState } from "uwucord.js";
+import { ProtocolV1 } from "uwucord.js/lib/events/v1";
 
-import { CONFIGURATION } from "@revolt/common";
-import { ModalControllerExtended } from "@revolt/modal";
-import type { State as ApplicationState } from "@revolt/state";
-import type { Session } from "@revolt/state/stores/Auth";
+import { CONFIGURATION } from "@uwucord/common";
+import { ModalControllerExtended } from "@uwucord/modal";
+import type { State as ApplicationState } from "@uwucord/state";
+import type { Session } from "@uwucord/state/stores/Auth";
 
 export enum State {
   Ready = "Ready",
@@ -133,7 +133,7 @@ class Lifecycle {
     });
 
     this.client.configuration = {
-      revolt: String(),
+      uwucord: String(),
       app: String(),
       build: {} as never,
       features: {
@@ -388,7 +388,7 @@ class Lifecycle {
     switch (state) {
       case ConnectionState.Disconnected:
         if (this.client.events.lastError) {
-          if (this.client.events.lastError.type === "revolt") {
+          if (this.client.events.lastError.type === "uwucord") {
             // if (this.client.events.lastError.data.type == 'InvalidSession') {
 
             this.transition({
@@ -500,9 +500,9 @@ export default class ClientController {
         os = "iPadOS";
       }
 
-      friendly_name = `Revolt Web (${name} on ${os})`;
+      friendly_name = `uwucord Web (${name} on ${os})`;
     } else {
-      friendly_name = "Revolt Web (Unknown Device)";
+      friendly_name = "uwucord Web (Unknown Device)";
     }
 
     // Try to login with given credentials

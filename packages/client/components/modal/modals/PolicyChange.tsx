@@ -11,7 +11,7 @@ import {
   Modal2Props,
   Text,
   Time,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdPolicy from "@material-design-icons/svg/outlined/policy.svg?component-solid";
 

@@ -3,17 +3,17 @@ import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { t } from "@lingui/core/macro";
-import { API, ChannelWebhook } from "revolt.js";
+import { API, ChannelWebhook } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
+import { useClient } from "@uwucord/client";
+import { CONFIGURATION } from "@uwucord/common";
 import {
   CategoryButton,
   CircularProgress,
   Column,
   Form2,
   Row,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdContentCopy from "@material-design-icons/svg/outlined/content_copy.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";

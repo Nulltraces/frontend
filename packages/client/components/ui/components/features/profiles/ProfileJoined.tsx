@@ -1,9 +1,9 @@
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { ServerMember, User } from "revolt.js";
+import { ServerMember, User } from "uwucord.js";
 
-import { useTime } from "@revolt/i18n";
+import { useTime } from "@uwucord/i18n";
 
 import { Text } from "../../design";
 import { OverflowingText } from "../../utils";
@@ -19,7 +19,7 @@ export function ProfileJoined(props: { user: User; member?: ServerMember }) {
         <Trans>Joined</Trans>
       </Text>
       <Text class="label">
-        <OverflowingText>Revolt</OverflowingText>
+        <OverflowingText>uwucord</OverflowingText>
         {/* <Trans>Account Created</Trans> */}
       </Text>
       <Text>{dayjs(props.user.createdAt).format("DD MMM YYYY")}</Text>

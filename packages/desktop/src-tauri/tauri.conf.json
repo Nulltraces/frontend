@@ -39,10 +39,10 @@
       }
     }
   },
-  "productName": "Revolt",
-  "mainBinaryName": "Revolt",
+  "productName": "uwucord",
+  "mainBinaryName": "uwucord",
   "version": "0.1.0",
-  "identifier": "chat.revolt.app",
+  "identifier": "chat.uwucord.app",
   "plugins": {},
   "app": {
     "withGlobalTauri": false,
@@ -51,7 +51,7 @@
         "fullscreen": false,
         "height": 720,
         "resizable": true,
-        "title": "Revolt",
+        "title": "uwucord",
         "width": 1280,
         "visible": true,
         "center": true,
@@ -68,7 +68,7 @@
     "trayIcon": {
       "iconPath": "../../client/assets/icons/tray/trayIcon.png",
       "iconAsTemplate": true,
-      "title": "Revolt"
+      "title": "uwucord"
     }
   }
 }

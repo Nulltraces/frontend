@@ -1,15 +1,15 @@
 import { For, Match, Show, Switch, onMount } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import { Message as MessageInterface, WebsiteEmbed } from "revolt.js";
+import { Message as MessageInterface, WebsiteEmbed } from "uwucord.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 import { decodeTime } from "ulid";
 
-import { useClient } from "@revolt/client";
-import { useTime } from "@revolt/i18n";
-import { Markdown } from "@revolt/markdown";
-import { useState } from "@revolt/state";
+import { useClient } from "@uwucord/client";
+import { useTime } from "@uwucord/i18n";
+import { Markdown } from "@uwucord/markdown";
+import { useState } from "@uwucord/state";
 import {
   Attachment,
   Avatar,
@@ -22,7 +22,7 @@ import {
   Tooltip,
   Username,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdCloud from "@material-design-icons/svg/filled/cloud.svg?component-solid";
 import MdLink from "@material-design-icons/svg/filled/link.svg?component-solid";
@@ -199,7 +199,7 @@ export function Message(props: Props) {
             }
           >
             <NewUser>
-              <Tooltip content={t`New to Revolt`} placement="top">
+              <Tooltip content={t`New to uwucord`} placement="top">
                 <MdSpa {...iconSize(16)} />
               </Tooltip>
             </NewUser>

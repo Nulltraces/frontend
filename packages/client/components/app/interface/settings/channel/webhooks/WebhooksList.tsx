@@ -3,9 +3,9 @@ import { For, Match, Show, Switch, createMemo, onMount } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { Avatar, CategoryButton, Column, Preloader } from "@revolt/ui";
+import { useClient } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
+import { Avatar, CategoryButton, Column, Preloader } from "@uwucord/ui";
 
 import { ChannelSettingsProps } from "../../ChannelSettings";
 import { useSettingsNavigation } from "../../Settings";

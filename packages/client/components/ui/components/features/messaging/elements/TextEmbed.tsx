@@ -1,14 +1,14 @@
 import { Match, Show, Switch } from "solid-js";
 
-import { TextEmbed as TextEmbedClass, WebsiteEmbed } from "revolt.js";
+import { TextEmbed as TextEmbedClass, WebsiteEmbed } from "uwucord.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { Markdown } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { Text } from "@revolt/ui/components/design";
-import { Column } from "@revolt/ui/components/layout";
-import { OverflowingText, SizedContent } from "@revolt/ui/components/utils";
+import { Markdown } from "@uwucord/markdown";
+import { useModals } from "@uwucord/modal";
+import { Text } from "@uwucord/ui/components/design";
+import { Column } from "@uwucord/ui/components/layout";
+import { OverflowingText, SizedContent } from "@uwucord/ui/components/utils";
 
 import { Attachment } from "./Attachment";
 import { SpecialEmbed } from "./SpecialEmbed";

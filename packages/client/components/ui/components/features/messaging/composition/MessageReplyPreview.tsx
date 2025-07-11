@@ -2,10 +2,10 @@ import { BiRegularAt, BiSolidXCircle } from "solid-icons/bi";
 import { Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import type { Message } from "revolt.js";
+import type { Message } from "uwucord.js";
 import { styled } from "styled-system/jsx";
 
-import { Row } from "@revolt/ui/components/layout";
+import { Row } from "@uwucord/ui/components/layout";
 
 import { MessageReply } from "../elements";
 

@@ -3,7 +3,7 @@
 To use localised dayjs functions (or use any imported plugin), use the time hook:
 
 ```typescript
-import { useTime } from "@revolt/i18n";
+import { useTime } from "@uwucord/i18n";
 
 function Component() {
   const dayjs = useTime();

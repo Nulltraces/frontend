@@ -6,7 +6,7 @@ import {
   Column,
   Row,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdBrush from "@material-design-icons/svg/outlined/brush.svg?component-solid";
 import MdDataObject from "@material-design-icons/svg/outlined/data_object.svg?component-solid";
@@ -26,7 +26,7 @@ export default function Appearance() {
     <Column gap="lg">
       {/* <Row>
         <ThemePreview
-          src="https://app.revolt.chat/assets/dark.f38e16a0.svg"
+          src="https://app.uwucord.chat/assets/dark.f38e16a0.svg"
           draggable={false}
         />
         <ThemeProperties>hello</ThemeProperties>

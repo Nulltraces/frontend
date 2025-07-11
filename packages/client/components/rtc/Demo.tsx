@@ -22,7 +22,7 @@ import {
   OverflowingText,
   Row,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdHeadset from "@material-design-icons/svg/outlined/headset.svg?component-solid";
 import MdHeadsetOff from "@material-design-icons/svg/outlined/headset_off.svg?component-solid";

@@ -1,3 +1,6 @@
 {
-  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
+  "version": 2,
+  "buildCommand": "pnpm run build",
+  "installCommand": "corepack enable && corepack prepare pnpm@latest --activate && pnpm install",
+  "framework": null
 }

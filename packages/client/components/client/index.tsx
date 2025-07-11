@@ -8,10 +8,10 @@ import {
   useContext,
 } from "solid-js";
 
-import type { Client, User } from "revolt.js";
+import type { Client, User } from "uwucord.js";
 
-import { useModals } from "@revolt/modal";
-import { State } from "@revolt/state";
+import { useModals } from "@uwucord/modal";
+import { State } from "@uwucord/state";
 
 import ClientController from "./Controller";
 
@@ -72,7 +72,7 @@ export function useClientLifecycle() {
 
 /**
  * Get the currently active client if one is available
- * @returns Revolt.js Client
+ * @returns uwucord.js Client
  */
 export function useClient(): Accessor<Client> {
   const controller = useContext(clientContext);

@@ -2,11 +2,11 @@ import { JSX, Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { useNavigate } from "@solidjs/router";
-import { Channel, Message, ServerMember, User } from "revolt.js";
+import { Channel, Message, ServerMember, User } from "uwucord.js";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
+import { useClient } from "@uwucord/client";
+import { useModals } from "@uwucord/modal";
+import { useState } from "@uwucord/state";
 
 import MdAddCircleOutline from "@material-design-icons/svg/outlined/add_circle_outline.svg?component-solid";
 import MdAdminPanelSettings from "@material-design-icons/svg/outlined/admin_panel_settings.svg?component-solid";
@@ -150,11 +150,11 @@ export function UserContextMenu(props: {
   }
 
   /**
-   * Open user in Revolt Admin Panel
+   * Open user in uwucord Admin Panel
    */
   function openAdminPanel() {
     window.open(
-      `https://admin.revolt.chat/panel/inspect/user/${props.user.id}`,
+      `https://admin.uwucord.chat/panel/inspect/user/${props.user.id}`,
       "_blank",
     );
   }

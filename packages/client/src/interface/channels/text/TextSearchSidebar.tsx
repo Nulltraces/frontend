@@ -1,10 +1,10 @@
 import { For, Show } from "solid-js";
 
 import { useQuery } from "@tanstack/solid-query";
-import { API, Channel } from "revolt.js";
+import { API, Channel } from "uwucord.js";
 
-import { Message } from "@revolt/app";
-import { CircularProgress } from "@revolt/ui";
+import { Message } from "@uwucord/app";
+import { CircularProgress } from "@uwucord/ui";
 
 /**
  * Message search sidebar

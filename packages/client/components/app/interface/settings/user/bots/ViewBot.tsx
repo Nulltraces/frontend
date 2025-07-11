@@ -1,13 +1,13 @@
 import { Trans } from "@lingui-solid/solid/macro";
-import { Bot } from "revolt.js";
+import { Bot } from "uwucord.js";
 
-import { createProfileResource } from "@revolt/client/resources";
+import { createProfileResource } from "@uwucord/client/resources";
 import {
   CategoryButton,
   CategoryButtonGroup,
   Column,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdLink from "@material-design-icons/svg/outlined/link.svg?component-solid";
 import MdPersonAdd from "@material-design-icons/svg/outlined/person_add.svg?component-solid";

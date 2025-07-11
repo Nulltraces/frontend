@@ -2,9 +2,9 @@ import { ErrorBoundary, For, Suspense } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
-import { createOwnBotsResource } from "@revolt/client/resources";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@uwucord/client";
+import { createOwnBotsResource } from "@uwucord/client/resources";
+import { useModals } from "@uwucord/modal";
 import {
   Avatar,
   CategoryButton,
@@ -12,7 +12,7 @@ import {
   Column,
   Preloader,
   iconSize,
-} from "@revolt/ui";
+} from "@uwucord/ui";
 
 import MdLibraryBooks from "@material-design-icons/svg/outlined/library_books.svg?component-solid";
 import MdSmartToy from "@material-design-icons/svg/outlined/smart_toy.svg?component-solid";
@@ -64,9 +64,9 @@ function CreateBot() {
       <CategoryButton
         action="external"
         icon={<MdLibraryBooks {...iconSize(22)} />}
-        onClick={() => window.open("https://developers.revolt.chat", "_blank")}
+        onClick={() => window.open("https://developers.uwucord.chat", "_blank")}
         description={
-          <Trans>Learn more about how to create bots on Revolt.</Trans>
+          <Trans>Learn more about how to create bots on uwucord.</Trans>
         }
       >
         <Trans>Developer Documentation</Trans>

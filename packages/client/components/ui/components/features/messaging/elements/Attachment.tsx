@@ -1,12 +1,12 @@
 import { Match, Show, Switch } from "solid-js";
 
-import { File, ImageEmbed, VideoEmbed } from "revolt.js";
+import { File, ImageEmbed, VideoEmbed } from "uwucord.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useModals } from "@revolt/modal";
-import { Column } from "@revolt/ui/components/layout";
-import { SizedContent, Spoiler } from "@revolt/ui/components/utils";
+import { useModals } from "@uwucord/modal";
+import { Column } from "@uwucord/ui/components/layout";
+import { SizedContent, Spoiler } from "@uwucord/ui/components/utils";
 
 import { FileInfo } from "./FileInfo";
 import { TextFile } from "./TextFile";

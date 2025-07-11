@@ -4,7 +4,7 @@
 //   KeybindAction,
 //   KeybindActions,
 //   KeybindSequence,
-// } from "@revolt/keybinds";
+// } from "@uwucord/keybinds";
 
 import { State } from "..";
 

@@ -1,7 +1,7 @@
 const DEFAULT_API_URL =
   (import.meta.env.DEV ? import.meta.env.VITE_DEV_API_URL : undefined) ??
   (import.meta.env.VITE_API_URL as string) ??
-  "https://beta.revolt.chat/api";
+  "https://beta.uwucord.chat/api";
 
 export default {
   /**
@@ -13,12 +13,12 @@ export default {
    */
   DEFAULT_API_URL,
   /**
-   * Whether this is Revolt
+   * Whether this is uwucord
    */
-  IS_REVOLT: [
-    "https://api.revolt.chat",
-    "https://beta.revolt.chat/api",
-    "https://revolt.chat/api",
+  IS_uwucord: [
+    "https://api.uwucord.chat",
+    "https://beta.uwucord.chat/api",
+    "https://uwucord.chat/api",
   ].includes(DEFAULT_API_URL),
   /**
    * What WS server to connect to by default.
@@ -26,21 +26,21 @@ export default {
   DEFAULT_WS_URL:
     (import.meta.env.DEV ? import.meta.env.VITE_DEV_WS_URL : undefined) ??
     (import.meta.env.VITE_WS_URL as string) ??
-    "wss://beta.revolt.chat/events",
+    "wss://beta.uwucord.chat/events",
   /**
    * What media server to connect to by default.
    */
   DEFAULT_MEDIA_URL:
     (import.meta.env.DEV ? import.meta.env.VITE_DEV_MEDIA_URL : undefined) ??
     (import.meta.env.VITE_MEDIA_URL as string) ??
-    "https://cdn.revoltusercontent.com",
+    "https://cdn.uwucordusercontent.com",
   /**
    * What proxy server to connect to by default.
    */
   DEFAULT_PROXY_URL:
     (import.meta.env.DEV ? import.meta.env.VITE_DEV_PROXY_URL : undefined) ??
     (import.meta.env.VITE_PROXY_URL as string) ??
-    "https://jan.revolt.chat",
+    "https://jan.uwucord.chat",
   /**
    * hCaptcha site key to use if enabled
    */
