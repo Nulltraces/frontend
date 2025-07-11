@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=Revolt
+Name=uwucord
 Comment=User-first chat platform. 
-Exec=revolt-desktop
+Exec=uwucord-desktop
 Terminal=false
 Type=Application
-Icon=revolt-desktop
+Icon=uwucord-desktop
 Categories=Network;InstantMessaging
-StartupWMClass=RevoltDesktop
+StartupWMClass=uwucordDesktop 

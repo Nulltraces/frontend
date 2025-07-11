@@ -1,14 +1,14 @@
 {
-    "name": "revolt-desktop",
+    "name": "uwucord-desktop",
     "version": "1.0.8",
-    "description": "Revolt desktop app",
+    "description": "uwucord desktop app",
     "private": true,
     "author": {
         "name": "Paul Makles",
         "url": "https://insrt.uk",
         "email": "me@insrt.uk"
     },
-    "homepage": "https://revolt.chat",
+    "homepage": "https://uwucord.chat",
     "main": "bundle/main.js",
     "scripts": {
         "start": "electron .",
@@ -23,7 +23,7 @@
         "clean": "rimraf dist",
         "fmt": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
     },
-    "repository": "revoltchat/desktop",
+    "repository": "uwucord/desktop",
     "devDependencies": {
         "@types/auto-launch": "^5.0.2",
         "@types/discord-rpc": "^4.0.3",
@@ -36,9 +36,9 @@
         "tsc-watch": "^5.0.3",
         "typescript": "^4.9.3"
     },
-    "productName": "Revolt",
+    "productName": "uwucord",
     "build": {
-        "appId": "chat.revolt.app",
+        "appId": "chat.uwucord.app",
         "mac": {
             "target": [
                 {
@@ -77,15 +77,15 @@
                 }
             ],
             "category": "InstantMessaging",
-            "executableName": "revolt-desktop",
+            "executableName": "uwucord-desktop",
             "desktop": {
-                "Name": "Revolt",
+                "Name": "uwucord",
                 "Comment": "User-first, privacy focused chat platform.",
                 "Terminal": false,
                 "Type": "Application",
-                "Icon": "revolt-desktop",
+                "Icon": "uwucord-desktop",
                 "Categories": "InstantMessaging",
-                "StartupWMClass": "RevoltDesktop"
+                "StartupWMClass": "uwucordDesktop"
             }
         },
         "win": {
@@ -109,11 +109,11 @@
         },
         "appx": {
             "backgroundColor": "#0F1823",
-            "displayName": "Revolt Chat",
-            "applicationId": "revolt.chat",
-            "identityName": "40345RevoltCommunications.revolt.chat",
+            "displayName": "uwucord Chat",
+            "applicationId": "uwucord.chat",
+            "identityName": "40345uwucordCommunications.uwucord.chat",
             "publisher": "CN=B040CC7E-0016-4AF5-957F-F8977A6CFA3B",
-            "publisherDisplayName": "Revolt Communications"
+            "publisherDisplayName": "uwucord Communications"
         },
         "publish": {
             "provider": "github"

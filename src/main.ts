@@ -62,7 +62,7 @@ function createWindow() {
     });
     mainWindow = new BrowserWindow({
         autoHideMenuBar: true,
-        title: "Revolt",
+        title: "uwucord",
         icon: WindowIcon,
 
         frame: initialConfig.frame,

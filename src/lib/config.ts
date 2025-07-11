@@ -48,12 +48,44 @@ export function onStart() {
 export function getBuildURL() {
     const build: "stable" | "nightly" | "dev" = getConfig().build;
 
+    // Check for custom server URL from environment or command line
+    const customServer = process.env.CUSTOM_SERVER_URL || process.argv.find(arg => arg.startsWith('--server='))?.split('=')[1];
+    if (customServer) {
+        return customServer;
+    }
+
+    // Check for uwucord Vercel deployment
+    const uwucordVercel = "https://frontend-client-git-main-lbharri2-k12wvus-projects.vercel.app";
+
     switch (build) {
         case "dev":
-            return "http://local.revolt.chat:3001";
+            return uwucordVercel;
         case "nightly":
             return "https://nightly.revolt.chat";
         default:
-            return "https://app.revolt.chat";
+            return uwucordVercel; // Use your Vercel deployment as default
+    }
+}
+
+// Add network connectivity check
+export async function checkNetworkConnectivity(): Promise<boolean> {
+    try {
+        const { net } = require("electron");
+        const request = net.request("https://app.revolt.chat");
+        
+        return new Promise((resolve) => {
+            request.on("response", () => {
+                resolve(true);
+            });
+            
+            request.on("error", () => {
+                resolve(false);
+            });
+            
+            request.end();
+        });
+    } catch (error) {
+        console.error("Network connectivity check failed:", error);
+        return false;
     }
 }
